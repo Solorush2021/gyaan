@@ -201,10 +201,14 @@ Phone A (hotspot) ◄── provides Wi-Fi
 
 > **The smallest attack surface in AI: nothing to exfiltrate.**
 
----
+## 🚀 Setup & Installation (Snapdragon X Elite, Windows ARM64)
 
-## 🚀 Setup (Snapdragon X Elite, Windows ARM64)
+### 1. Download & Prepare the Local LLM (LM Studio)
+1. Ensure you have **LM Studio for ARM** (the **Bionic** build for Snapdragon laptops) installed on your system.
+2. Download the **Qwen 2.5 (or 3.5) 0.8B quantized to 4-bits** model (or a similar sub-1B quantized model).
+3. Load the model inside LM Studio and start the local API server. It typically runs on `http://localhost:1234/v1`.
 
+### 2. Configure and Run Gyaan
 ```powershell
 # 1. Install Node.js LTS (winget auto-selects arm64)
 winget install OpenJS.NodeJS.LTS
@@ -213,31 +217,49 @@ winget install OpenJS.NodeJS.LTS
 Expand-Archive gyaan-dragon.zip C:\Users\you\gyaan
 cd C:\Users\you\gyaan
 
-# 3. Install deps (npm, not pnpm — pnpm arm64 is buggy)
+# 3. Install dependencies
 npm install
 
-# 4. Install + start GenieX with the Qwen 4B NPU model
-#    https://github.com/qualcomm/GenieX/releases
-geniex pull ai-hub-models/Qwen3-4B-Instruct-2507
-geniex serve --host 0.0.0.0 --port 18181
-
-# 5. Configure the app
+# 4. Configure environment variables
 copy .env.example .env.local
-#   edit .env.local: OPENAI_BASE_URL=http://127.0.0.1:18181/v1
-#                    DEFAULT_MODEL=openai:ai-hub-models/Qwen3-4B-Instruct-2507
-#                    GYAAN_GRID_DSL=true
+# Edit .env.local to match your local LM Studio URL:
+# OPENAI_BASE_URL=http://localhost:1234/v1
 
-# 6. Run
+# 5. Run the web server
 npm run dev -- --hostname 0.0.0.0
-
-# 7. Open firewall for phone access (admin PowerShell)
-New-NetFirewallRule -DisplayName "Gyaan 3000" -Direction Inbound `
-  -Protocol TCP -LocalPort 3000 -Action Allow -Profile Private
 ```
 
 Open **`http://localhost:3000`** on the laptop, or **`http://<laptop-lan-ip>:3000`** on your phone.
 
-> ⚠️ If Turbopack errors on ARM64, set `$env:TURBOPACK=0` and re-run.
+> ⚠️ If Turbopack errors on Windows ARM64, set `$env:TURBOPACK=0` and re-run.
+
+---
+
+## 📖 Usage Guide & UI Configuration
+
+Once the web interface is open, configure the settings as follows:
+
+### 1. Connect Gyaan to LM Studio
+1. Open the **Settings** panel in the Gyaan web UI.
+2. In the API/Base URL field, input your LM Studio address: `http://localhost:1234/v1`.
+3. Click the **Test Connection** button to verify the interface can communicate with the model running in LM Studio.
+
+![Model Connection Setup](https://github.com/Solorush2021/gyann/raw/main/assets/model_setup.png)
+
+### 2. Set Up Text-to-Speech (TTS)
+1. Go to the **TTS / Voice** section in Settings.
+2. Choose **Browser Native** as your TTS provider.
+3. Switch the **Toggle On** to enable speech.
+4. Select your preferred voice/model from the system dropdown selection window.
+
+![TTS Configuration](https://github.com/Solorush2021/gyann/raw/main/assets/tts_setup.png)
+
+### 3. Generate a Local Lesson
+1. Close settings and return to the main dashboard.
+2. Enter your desired topic or prompt in the input/chat window.
+3. Hit submit and wait for the classroom session to generate entirely on-device!
+
+![Chat Generation Demo](https://github.com/Solorush2021/gyann/raw/main/assets/generation_demo.png)
 
 ---
 
