@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Reader: bookish quiet, soft bangs, down-then-up gaze, gentle smile -->
+  <defs>
+    <clipPath id="readerFaceClip">
+      <path d="M68 124 Q68 66 140 66 Q212 66 212 124 Q212 178 194 198 L194 230 L86 230 L86 198 Q68 178 68 124 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pastel seafoam background -->
+  <circle cx="140" cy="140" r="140" fill="#E8FFF8"/>
+
+  <!-- Shoulders / collar -->
+  <path d="M58 280 Q58 218 110 206 L170 206 Q222 218 222 280 Z" fill="#6BB8A8"/>
+  <path d="M112 210 L140 248 L168 210 Q150 222 140 222 Q130 222 112 210 Z" fill="#F5FBF9"/>
+  <path d="M132 222 L140 234 L148 222 L144 228 L140 226 L136 228 Z" fill="#D88AA0"/>
+
+  <!-- Neck -->
+  <path d="M120 188 L120 212 Q140 222 160 212 L160 188 Z" fill="#ffe0c8"/>
+  <path d="M120 202 Q140 214 160 202 L160 212 Q140 222 120 212 Z" fill="#f0c8a8"/>
+
+  <!-- Hair back (ash brown) -->
+  <path d="M58 132 Q56 72 104 60 Q140 50 176 60 Q224 72 222 132 Q222 162 214 182 L208 202 Q198 188 196 172 L196 126 Q196 102 168 96 Q140 92 112 96 Q84 102 84 126 L84 172 Q82 188 72 202 L66 182 Q58 162 58 132 Z" fill="#9B8268"/>
+  <path d="M58 132 Q56 72 104 60 Q90 78 82 110 Q74 140 72 180 L66 182 Q58 162 58 132 Z" fill="#7A6450" opacity="0.55"/>
+  <path d="M222 132 Q224 72 176 60 Q190 78 198 110 Q206 140 208 180 L214 182 Q222 162 222 132 Z" fill="#7A6450" opacity="0.55"/>
+
+  <!-- Face base -->
+  <path d="M74 126 Q74 76 140 76 Q206 76 206 126 Q206 176 186 196 Q168 214 140 214 Q112 214 94 196 Q74 176 74 126 Z" fill="#ffe0c8"/>
+  <!-- Face shadow -->
+  <g clip-path="url(#readerFaceClip)">
+    <path d="M74 126 Q74 102 90 90 Q86 144 96 182 Q86 192 78 182 Q74 158 74 126 Z" fill="#f0c8a8" opacity="0.55"/>
+    <path d="M206 126 Q206 102 190 90 Q194 144 184 182 Q194 192 202 182 Q206 158 206 126 Z" fill="#f0c8a8" opacity="0.55"/>
+    <ellipse cx="98" cy="170" rx="12" ry="7" fill="#E89A82" opacity="0.4"/>
+    <ellipse cx="182" cy="170" rx="12" ry="7" fill="#E89A82" opacity="0.4"/>
+  </g>
+
+  <!-- Ears -->
+  <ellipse cx="76" cy="152" rx="8" ry="13" fill="#ffe0c8"/>
+  <ellipse cx="76" cy="154" rx="3.5" ry="6" fill="#f0c8a8"/>
+  <ellipse cx="204" cy="152" rx="8" ry="13" fill="#ffe0c8"/>
+  <ellipse cx="204" cy="154" rx="3.5" ry="6" fill="#f0c8a8"/>
+
+  <!-- Hair front (soft straight bangs, ash brown) -->
+  <path d="M66 136 Q62 78 112 64 Q140 56 168 64 Q218 78 214 136 Q210 142 206 138 Q206 110 198 100 Q190 118 180 110 Q172 124 162 116 Q154 128 144 118 Q140 130 136 118 Q126 128 118 116 Q108 124 100 110 Q90 118 82 100 Q74 110 74 138 Q70 142 66 136 Z" fill="#A89178"/>
+  <path d="M68 134 Q60 170 70 200 L76 198 Q70 168 76 144 Z" fill="#9B8268"/>
+  <path d="M212 134 Q220 170 210 200 L204 198 Q210 168 204 144 Z" fill="#9B8268"/>
+  <path d="M104 90 Q140 84 176 90 Q140 96 104 90 Z" fill="#7A6450" opacity="0.4"/>
+  <path d="M118 78 Q140 74 162 78 Q140 82 118 78 Z" fill="#BFA78C" opacity="0.7"/>
+
+  <!-- Bookmark ribbon hair accessory (muted rose) -->
+  <path d="M188 86 Q206 84 212 100 L214 150 L206 142 L198 150 L196 100 Q190 90 184 92 Z" fill="#D88AA0"/>
+  <path d="M196 100 L206 100 L206 142 L198 150 L196 100 Z" fill="#B86E86" opacity="0.5"/>
+  <circle cx="200" cy="92" r="3" fill="#E8A6BC"/>
+
+  <!-- Eyebrows -->
+  <path d="M96 138 Q108 135 122 138" stroke="#7A6450" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M158 138 Q172 135 184 138" stroke="#7A6450" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (down-then-up gaze, gentle) -->
+  <ellipse cx="108" cy="162" rx="13" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="164" rx="10" ry="11" fill="#5E8B6E"/>
+  <ellipse cx="108" cy="165" rx="6.5" ry="8" fill="#7AAA8C"/>
+  <circle cx="104" cy="159" r="2.8" fill="#FFFFFF"/>
+  <circle cx="112" cy="168" r="1.6" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M94 158 Q108 152 122 158 Q122 154 116 152" stroke="#3D4F44" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <ellipse cx="172" cy="162" rx="13" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="164" rx="10" ry="11" fill="#5E8B6E"/>
+  <ellipse cx="172" cy="165" rx="6.5" ry="8" fill="#7AAA8C"/>
+  <circle cx="168" cy="159" r="2.8" fill="#FFFFFF"/>
+  <circle cx="176" cy="168" r="1.6" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M158 158 Q172 152 186 158 Q186 154 180 152" stroke="#3D4F44" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M138 180 Q140 186 143 180" stroke="#E0A888" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth (gentle closed-lip smile) -->
+  <path d="M128 198 Q140 206 152 198" stroke="#9E3A52" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M130 199 Q140 203 150 199 Q140 202 130 199 Z" fill="#C0506A" opacity="0.4"/>
+
+  <path d="M94 160 L90 162" stroke="#3D4F44" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M186 160 L190 162" stroke="#3D4F44" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

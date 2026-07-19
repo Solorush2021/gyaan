@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Coder — soft steel blue bg, tech-minded, dark undercut, glasses, hoodie -->
+  <circle cx="140" cy="140" r="140" fill="#E8F4FF"/>
+
+  <!-- Hoodie (back collar) -->
+  <path d="M44 280 C52 222 90 200 140 200 C190 200 228 222 236 280 Z" fill="#3B4A6B"/>
+  <path d="M44 280 C52 222 90 200 140 200 C190 200 228 222 236 280 Z" fill="#2A3753" opacity="0.4"/>
+  <!-- hoodie front collar -->
+  <path d="M112 210 C122 224 158 224 168 210 L158 204 C150 214 130 214 122 204 Z" fill="#5670A0"/>
+  <!-- drawstrings -->
+  <path d="M126 214 C126 224 124 234 122 240" stroke="#E8F0FF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M154 214 C154 224 156 234 158 240" stroke="#E8F0FF" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <circle cx="122" cy="242" r="2.4" fill="#C8D6F0"/>
+  <circle cx="158" cy="242" r="2.4" fill="#C8D6F0"/>
+
+  <!-- Neck -->
+  <path d="M122 176 L122 206 C128 214 152 214 158 206 L158 176 Z" fill="#FFE0C8"/>
+  <path d="M122 194 C128 202 152 202 158 194 L158 176 L122 176 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Hair back: undercut, dark midnight blue -->
+  <path d="M50 148 C46 96 82 46 140 46 C198 46 234 96 230 148 C230 176 226 198 220 214 C214 210 210 200 210 188 C214 168 210 142 200 124 C188 142 168 150 150 150 C162 128 158 104 146 88 C132 104 128 128 134 150 C116 144 100 134 92 116 C84 134 80 156 86 176 C76 168 70 156 68 142 C62 166 62 196 70 220 C60 214 54 202 50 186 C49 174 49 160 50 148 Z" fill="#2C3E5A"/>
+  <path d="M50 148 C46 96 82 46 140 46 C198 46 234 96 230 148 C230 166 228 184 224 198 C226 174 222 150 214 132 C206 150 194 160 182 162 C188 138 184 112 172 96 C156 112 124 118 100 106 C106 132 102 154 92 168 C80 162 70 152 64 138 C58 162 58 194 66 222 C56 216 50 204 47 188 C46 174 46 161 50 148 Z" fill="#3A5174"/>
+
+  <!-- Face base -->
+  <path d="M70 130 C70 90 100 68 140 68 C180 68 210 90 210 130 C210 172 182 204 140 204 C98 204 70 172 70 130 Z" fill="#FFE0C8"/>
+  <!-- Face shadow (right) -->
+  <path d="M186 86 C202 98 210 114 210 130 C210 172 182 204 140 204 C128 204 117 202 108 198 C148 194 178 166 184 128 C186 114 187 100 186 86 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="138" rx="8" ry="12" fill="#FFE0C8"/>
+  <ellipse cx="208" cy="138" rx="8" ry="12" fill="#F0C8A8"/>
+
+  <!-- Hair front: messy fringe swept to one side -->
+  <path d="M62 128 C58 92 94 58 140 58 C186 58 222 92 218 128 C216 138 212 144 208 148 C212 124 206 104 194 92 C200 110 196 128 186 138 C192 116 186 96 174 84 C176 108 168 126 154 134 C158 110 152 90 140 78 C126 92 122 112 124 134 C110 124 102 106 104 84 C92 96 86 116 90 138 C78 128 72 110 76 92 C66 104 60 122 62 128 Z" fill="#2C3E5A"/>
+  <!-- swept fringe piece (modern messy) -->
+  <path d="M96 92 C116 78 150 78 178 90 C160 86 130 86 110 92 C102 92 98 92 96 92 Z" fill="#1F2D44"/>
+  <!-- side fringe falling over right eye -->
+  <path d="M176 96 C188 100 196 114 198 132 C196 120 190 110 182 104 Z" fill="#2C3E5A"/>
+  <!-- highlight tone -->
+  <path d="M110 90 C128 82 152 82 168 90 C152 86 128 86 110 90 Z" fill="#4A6595" opacity="0.7"/>
+
+  <!-- Eyebrows (calm, level) -->
+  <path d="M98 118 C108 114 122 114 130 118" stroke="#1F2D44" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M150 118 C158 114 172 114 182 118" stroke="#1F2D44" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Round glasses -->
+  <g fill="none" stroke="#3A4A6B" stroke-width="2.6">
+    <circle cx="116" cy="142" r="17"/>
+    <circle cx="164" cy="142" r="17"/>
+    <path d="M133 140 C138 138 142 138 147 140"/>
+    <path d="M99 138 C92 138 86 140 82 144"/>
+    <path d="M181 138 C188 138 194 140 198 144"/>
+  </g>
+  <circle cx="116" cy="142" r="15.5" fill="#D8ECFF" opacity="0.45"/>
+  <circle cx="164" cy="142" r="15.5" fill="#D8ECFF" opacity="0.45"/>
+
+  <!-- Eyes (calm focused gaze) -->
+  <ellipse cx="116" cy="143" rx="8.5" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="116" cy="144" rx="6.5" ry="8" fill="#6FA8C8"/>
+  <ellipse cx="116" cy="145" rx="4" ry="5" fill="#3F7AA0"/>
+  <circle cx="118" cy="140" r="2.2" fill="#FFFFFF"/>
+  <path d="M104 142 C110 135 122 135 128 142" stroke="#1F2D44" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <ellipse cx="164" cy="143" rx="8.5" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="164" cy="144" rx="6.5" ry="8" fill="#6FA8C8"/>
+  <ellipse cx="164" cy="145" rx="4" ry="5" fill="#3F7AA0"/>
+  <circle cx="166" cy="140" r="2.2" fill="#FFFFFF"/>
+  <path d="M152 142 C158 135 170 135 176 142" stroke="#1F2D44" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Nose -->
+  <path d="M139 156 C137 162 137 166 140 167 C143 166 143 162 141 156" stroke="#E0B090" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Calm small smile -->
+  <path d="M126 180 C134 184 146 184 154 180" stroke="#C9646A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- subtle blush -->
+  <ellipse cx="100" cy="168" rx="9" ry="5" fill="#F5B8B8" opacity="0.4"/>
+  <ellipse cx="180" cy="168" rx="9" ry="5" fill="#F5B8B8" opacity="0.4"/>
+</svg>

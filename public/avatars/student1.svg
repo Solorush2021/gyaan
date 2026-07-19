@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <circle cx="140" cy="140" r="140" fill="#FFE8F0"/>
+  <!-- Shoulders / uniform -->
+  <path d="M40 280 Q40 210 90 195 L110 188 Q140 205 170 188 L190 195 Q240 210 240 280 Z" fill="#E88AA8"/>
+  <path d="M110 188 Q140 205 170 188 L170 200 Q140 215 110 200 Z" fill="#D07090"/>
+  <!-- Collar -->
+  <path d="M118 192 L140 208 L162 192 L162 200 L140 214 L118 200 Z" fill="#FFFFFF"/>
+  <!-- Neck -->
+  <path d="M122 165 L122 195 Q140 205 158 195 L158 165 Z" fill="#FFE0C8"/>
+  <path d="M122 180 Q140 192 158 180 L158 195 Q140 205 122 195 Z" fill="#F0C8A8"/>
+  <!-- Hair back (strawberry blonde, fluffy) -->
+  <path d="M52 135 Q48 72 100 52 Q140 38 180 52 Q232 72 228 135 L228 165 Q215 158 208 150 L208 108 Q200 88 140 88 Q80 88 72 108 L72 150 Q65 158 52 165 Z" fill="#E89A6A"/>
+  <!-- Face -->
+  <ellipse cx="140" cy="120" rx="78" ry="82" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M140 42 Q188 48 218 92 Q218 130 200 148 L200 110 Q190 88 140 88 Z" fill="#F0C8A8" opacity="0.5"/>
+  <!-- Bangs (messy fluffy strawberry) -->
+  <path d="M60 110 Q56 60 105 50 Q140 42 178 52 Q222 60 220 112 Q210 90 188 96 L172 116 Q162 92 144 96 L138 118 Q126 92 106 100 L88 118 Q72 100 60 110 Z" fill="#F2AC7C"/>
+  <!-- Bangs shadow strands -->
+  <path d="M70 108 Q86 90 104 100 L96 124 Q80 108 70 122 Z" fill="#D4865A"/>
+  <path d="M176 100 Q200 92 210 110 L206 128 Q192 110 178 114 Z" fill="#D4865A"/>
+  <!-- Messy bun on top -->
+  <ellipse cx="140" cy="42" rx="30" ry="22" fill="#F2AC7C"/>
+  <ellipse cx="140" cy="42" rx="30" ry="22" fill="#D4865A" opacity="0.4"/>
+  <path d="M118 40 Q140 24 162 40 Q150 34 140 34 Q130 34 118 40 Z" fill="#D4865A"/>
+  <ellipse cx="140" cy="44" rx="22" ry="14" fill="#E89A6A"/>
+  <!-- Side ponytail (left) -->
+  <path d="M58 120 Q44 130 40 158 Q44 175 60 170 Q50 158 54 140 Q58 128 66 122 Z" fill="#F2AC7C"/>
+  <path d="M48 145 Q52 165 64 168" stroke="#D4865A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Ponytail holder -->
+  <ellipse cx="60" cy="120" rx="8" ry="6" fill="#E85D8A"/>
+  <!-- Ears -->
+  <ellipse cx="63" cy="128" rx="9" ry="13" fill="#FFE0C8"/>
+  <ellipse cx="217" cy="128" rx="9" ry="13" fill="#FFE0C8"/>
+  <!-- Eyebrows (raised, energetic) -->
+  <path d="M96 106 Q112 100 128 108" stroke="#A85838" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M152 108 Q168 100 184 106" stroke="#A85838" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Eyes: big sparkly coral -->
+  <g>
+    <path d="M94 138 Q113 122 132 138 Q113 156 94 138 Z" fill="#FFFFFF"/>
+    <ellipse cx="113" cy="138" rx="11" ry="12" fill="#FF7A8A"/>
+    <ellipse cx="113" cy="138" rx="11" ry="12" fill="#E85870" opacity="0.45"/>
+    <circle cx="113" cy="141" r="5.5" fill="#8E2030"/>
+    <circle cx="109" cy="134" r="3" fill="#FFFFFF"/>
+    <circle cx="117" cy="144" r="1.6" fill="#FFFFFF"/>
+    <path d="M94 138 Q113 122 132 138" stroke="#3A3A3A" stroke-width="2.2" fill="none"/>
+  </g>
+  <g>
+    <path d="M148 138 Q167 122 186 138 Q167 156 148 138 Z" fill="#FFFFFF"/>
+    <ellipse cx="167" cy="138" rx="11" ry="12" fill="#FF7A8A"/>
+    <ellipse cx="167" cy="138" rx="11" ry="12" fill="#E85870" opacity="0.45"/>
+    <circle cx="167" cy="141" r="5.5" fill="#8E2030"/>
+    <circle cx="163" cy="134" r="3" fill="#FFFFFF"/>
+    <circle cx="171" cy="144" r="1.6" fill="#FFFFFF"/>
+    <path d="M148 138 Q167 122 186 138" stroke="#3A3A3A" stroke-width="2.2" fill="none"/>
+  </g>
+  <!-- Blush (energetic) -->
+  <ellipse cx="94" cy="162" rx="10" ry="6" fill="#F57888" opacity="0.6"/>
+  <ellipse cx="186" cy="162" rx="10" ry="6" fill="#F57888" opacity="0.6"/>
+  <!-- Nose -->
+  <path d="M139 152 Q137 160 141 162" stroke="#E0B098" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Mouth: big smile -->
+  <path d="M126 170 Q140 188 154 170 Q140 180 126 170 Z" fill="#C85060"/>
+  <path d="M128 171 Q140 182 152 171" stroke="#A03848" stroke-width="1.5" fill="none"/>
+  <rect x="128" y="169" width="24" height="3" fill="#FFFFFF" opacity="0.9"/>
+</svg>

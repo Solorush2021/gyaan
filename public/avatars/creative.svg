@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Creative — soft magenta bg, artistic, dark hair w/ pink+blue streak, wink -->
+  <circle cx="140" cy="140" r="140" fill="#FFE8F4"/>
+
+  <!-- Shoulders / top -->
+  <path d="M52 280 C60 224 96 206 140 206 C184 206 220 224 228 280 Z" fill="#F0B8D4"/>
+  <path d="M52 280 C60 224 96 206 140 206 C184 206 220 224 228 280 Z" fill="#D88FB8" opacity="0.3"/>
+  <!-- t-shirt collar v -->
+  <path d="M118 208 C128 220 152 220 162 208 L150 206 C146 212 134 212 130 206 Z" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Neck -->
+  <path d="M122 178 L122 206 C128 214 152 214 158 206 L158 178 Z" fill="#FFE0C8"/>
+  <path d="M122 196 C128 204 152 204 158 196 L158 178 L122 178 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Hair back (dark base) -->
+  <path d="M46 150 C42 96 80 44 140 44 C200 44 238 96 234 150 C234 184 228 214 220 240 C214 254 206 258 200 258 C210 222 208 192 200 172 C194 188 184 196 176 198 C186 168 184 138 172 118 C150 138 110 144 86 128 C92 156 90 180 80 198 C68 192 60 180 56 168 C50 196 50 226 60 254 C50 248 46 236 44 222 Z" fill="#3A2E4A"/>
+  <path d="M46 150 C42 96 80 44 140 44 C200 44 238 96 234 150 C234 172 232 192 228 208 C230 180 226 156 218 138 C212 158 202 168 190 170 C196 144 194 116 182 100 C164 118 130 124 108 112 C114 138 110 158 100 172 C86 168 76 158 70 144 C64 170 64 202 72 230 C60 224 52 212 48 194 C46 180 45 165 46 150 Z" fill="#4A3C5E"/>
+
+  <!-- Face base -->
+  <path d="M70 132 C70 92 100 70 140 70 C180 70 210 92 210 132 C210 174 182 206 140 206 C98 206 70 174 70 132 Z" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M186 88 C202 100 210 116 210 132 C210 174 182 206 140 206 C128 206 117 204 108 200 C148 196 178 168 184 130 C186 116 187 102 186 88 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="140" rx="8" ry="12" fill="#FFE0C8"/>
+  <ellipse cx="208" cy="140" rx="8" ry="12" fill="#F0C8A8"/>
+
+  <!-- Hair front bangs (dark, slightly messy/playful) -->
+  <path d="M64 132 C60 94 96 58 140 58 C184 58 220 94 216 132 C214 142 210 148 206 152 C208 130 202 110 192 98 C196 116 192 132 184 142 C188 120 182 102 172 90 C172 112 166 128 156 138 C158 118 154 102 144 92 C134 104 130 120 132 138 C120 128 114 112 116 92 C104 104 98 122 102 142 C92 132 86 116 90 98 C80 110 74 130 76 152 C70 148 66 142 64 132 Z" fill="#3A2E4A"/>
+
+  <!-- Color streaks: bright pink + blue -->
+  <path d="M92 104 C100 96 116 92 132 94 C122 100 112 106 104 112 C98 110 94 108 92 104 Z" fill="#FF5BA0"/>
+  <path d="M96 106 C104 100 116 98 126 100 C118 104 110 108 104 110 C100 109 97 108 96 106 Z" fill="#FF8AB8" opacity="0.7"/>
+  <path d="M168 98 C178 96 190 100 198 108 C190 110 180 110 172 108 C170 105 168 101 168 98 Z" fill="#4AA8FF"/>
+  <path d="M172 100 C180 98 188 101 194 106 C188 107 180 107 174 106 C173 104 172 102 172 100 Z" fill="#7BC4FF" opacity="0.7"/>
+  <path d="M196 132 C200 152 198 176 192 194 C190 174 190 154 193 138 Z" fill="#FF5BA0" opacity="0.85"/>
+
+  <!-- Eyebrows (playful arched) -->
+  <path d="M98 120 C108 115 122 115 130 120" stroke="#2A2038" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M150 120 C158 115 172 115 182 120" stroke="#2A2038" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Left eye: open, big and bright -->
+  <ellipse cx="116" cy="142" rx="12" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="116" cy="143" rx="9" ry="11" fill="#7BD0A0"/>
+  <ellipse cx="116" cy="144" rx="6.5" ry="8" fill="#4FB07A"/>
+  <ellipse cx="116" cy="145" rx="3" ry="4" fill="#2E8A56"/>
+  <circle cx="119" cy="139" r="3" fill="#FFFFFF"/>
+  <circle cx="113" cy="146" r="1.5" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M101 142 C108 134 124 134 131 142" stroke="#2A2038" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+
+  <!-- Right eye: WINK (happy curve) -->
+  <path d="M150 144 C158 138 172 138 182 144" stroke="#2A2038" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M181 142 C185 140 188 142 189 145" stroke="#2A2038" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M139 158 C137 164 137 168 140 169 C143 168 143 164 141 158" stroke="#E0B090" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Playful grin (wide open smile) -->
+  <path d="M122 180 C130 192 150 192 158 180 C150 184 130 184 122 180 Z" fill="#FFFFFF"/>
+  <path d="M124 181 C132 188 148 188 156 181 C150 183 132 183 124 181 Z" fill="#E8909A" opacity="0.5"/>
+  <path d="M122 180 C130 190 150 190 158 180" stroke="#C9646A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Blush -->
+  <ellipse cx="104" cy="170" rx="11" ry="6" fill="#F58AB0" opacity="0.55"/>
+  <ellipse cx="176" cy="170" rx="11" ry="6" fill="#F58AB0" opacity="0.55"/>
+
+  <!-- Tiny paint smudge on cheek (left) -->
+  <path d="M92 176 C96 173 102 175 104 179 C106 183 102 186 97 185 C93 184 90 180 92 176 Z" fill="#4AA8FF" opacity="0.85"/>
+  <circle cx="98" cy="182" r="1.6" fill="#FF5BA0" opacity="0.85"/>
+</svg>

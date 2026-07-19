@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Explorer: adventurous, wind-tousled sandy/copper hair, confident grin, scarf collar -->
+  <defs>
+    <clipPath id="explorerFaceClip">
+      <path d="M64 122 Q64 64 140 64 Q216 64 216 122 Q216 178 198 198 L198 230 L82 230 L82 198 Q64 178 64 122 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pastel sand background -->
+  <circle cx="140" cy="140" r="140" fill="#FFEFDD"/>
+
+  <!-- Shoulders + scarf collar -->
+  <path d="M56 280 Q56 214 108 202 L172 202 Q224 214 224 280 Z" fill="#C9783E"/>
+  <path d="M104 206 Q140 222 176 206 Q184 214 186 226 Q140 244 94 226 Q96 214 104 206 Z" fill="#D85A4A"/>
+  <path d="M104 206 Q140 222 176 206 Q170 214 140 220 Q110 214 104 206 Z" fill="#E87A6A" opacity="0.6"/>
+  <path d="M170 224 Q186 230 192 246 L198 270 Q190 272 186 264 L180 240 Q176 230 170 226 Z" fill="#C44A3C"/>
+  <path d="M118 214 Q140 224 162 214" stroke="#A83A2E" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M100 218 Q140 238 180 218" stroke="#A83A2E" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M114 218 L140 250 L166 218 Q150 226 140 226 Q130 226 114 218 Z" fill="#F0D9B8"/>
+
+  <!-- Neck -->
+  <path d="M120 186 L120 210 Q140 220 160 210 L160 186 Z" fill="#ffe0c8"/>
+  <path d="M120 200 Q140 212 160 200 L160 210 Q140 220 120 210 Z" fill="#f0c8a8"/>
+
+  <!-- Hair back (wind-tousled sandy copper) -->
+  <path d="M52 132 Q48 66 100 52 Q140 42 180 52 Q232 66 228 132 Q228 166 220 188 L214 206 Q202 188 200 168 L200 122 Q200 96 170 90 Q140 86 110 90 Q80 96 80 122 L80 168 Q78 188 66 206 L60 188 Q52 166 52 132 Z" fill="#C9783E"/>
+  <path d="M52 132 Q44 110 50 90 Q60 70 76 64 Q62 84 58 110 Q56 130 60 150 Z" fill="#C9783E"/>
+  <path d="M228 132 Q236 110 230 90 Q220 70 204 64 Q218 84 222 110 Q224 130 220 150 Z" fill="#C9783E"/>
+  <path d="M52 132 Q44 110 50 90 Q58 100 58 122 Q58 140 62 154 Z" fill="#A85F2E" opacity="0.5"/>
+  <path d="M228 132 Q236 110 230 90 Q222 100 222 122 Q222 140 218 154 Z" fill="#A85F2E" opacity="0.5"/>
+
+  <!-- Face base -->
+  <path d="M72 124 Q72 72 140 72 Q208 72 208 124 Q208 176 188 196 Q168 214 140 214 Q112 214 92 196 Q72 176 72 124 Z" fill="#ffe0c8"/>
+  <!-- Face shadow (sun-kissed) -->
+  <g clip-path="url(#explorerFaceClip)">
+    <path d="M72 124 Q72 98 90 86 Q86 144 96 182 Q86 192 78 182 Q72 158 72 124 Z" fill="#F2C6A0" opacity="0.65"/>
+    <path d="M208 124 Q208 98 190 86 Q194 144 184 182 Q194 192 202 182 Q208 158 208 124 Z" fill="#F2C6A0" opacity="0.65"/>
+    <circle cx="100" cy="172" r="1.6" fill="#C9783E" opacity="0.55"/>
+    <circle cx="108" cy="176" r="1.4" fill="#C9783E" opacity="0.5"/>
+    <circle cx="116" cy="172" r="1.5" fill="#C9783E" opacity="0.5"/>
+    <circle cx="164" cy="172" r="1.6" fill="#C9783E" opacity="0.55"/>
+    <circle cx="172" cy="176" r="1.4" fill="#C9783E" opacity="0.5"/>
+    <circle cx="180" cy="172" r="1.5" fill="#C9783E" opacity="0.5"/>
+    <ellipse cx="98" cy="166" rx="11" ry="6" fill="#E8806A" opacity="0.35"/>
+    <ellipse cx="182" cy="166" rx="11" ry="6" fill="#E8806A" opacity="0.35"/>
+  </g>
+
+  <!-- Ears -->
+  <ellipse cx="74" cy="150" rx="9" ry="14" fill="#ffe0c8"/>
+  <ellipse cx="74" cy="152" rx="4" ry="7" fill="#F2C6A0"/>
+  <ellipse cx="206" cy="150" rx="9" ry="14" fill="#ffe0c8"/>
+  <ellipse cx="206" cy="152" rx="4" ry="7" fill="#F2C6A0"/>
+
+  <!-- Hair front (wind-tousled, asymmetric spikes) -->
+  <path d="M62 132 Q58 76 108 60 Q140 50 172 60 Q222 76 218 132 Q214 140 208 138 Q208 112 200 102 Q196 118 188 108 Q180 124 170 112 Q162 128 152 116 Q146 130 138 118 Q132 132 124 118 Q116 130 108 114 Q98 126 90 110 Q82 120 78 104 Q72 116 72 138 Q66 140 62 132 Z" fill="#E89554"/>
+  <path d="M84 110 Q72 86 92 64 Q104 78 100 100 Q96 118 88 122 Z" fill="#E89554"/>
+  <path d="M84 110 Q74 92 88 72 Q92 90 92 108 Z" fill="#C9783E" opacity="0.6"/>
+  <path d="M104 76 Q140 66 176 76 Q140 80 104 76 Z" fill="#C9783E" opacity="0.55"/>
+  <path d="M96 92 Q120 84 144 88 Q120 92 96 92 Z" fill="#F0B070" opacity="0.6"/>
+  <path d="M108 70 Q130 60 150 64 Q130 66 116 80 Z" fill="#FFD08C" opacity="0.7"/>
+
+  <!-- Eyebrows (determined) -->
+  <path d="M92 134 L124 130" stroke="#8A4820" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M156 130 L188 134" stroke="#8A4820" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (bright determined) -->
+  <ellipse cx="108" cy="158" rx="15" ry="18" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="159" rx="12" ry="15" fill="#3E8E5E"/>
+  <ellipse cx="108" cy="161" rx="8" ry="11" fill="#5BB07E"/>
+  <circle cx="103" cy="153" r="3.8" fill="#FFFFFF"/>
+  <circle cx="113" cy="166" r="2.2" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M92 154 Q108 144 124 154 Q124 150 118 148" stroke="#1F4030" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+
+  <ellipse cx="172" cy="158" rx="15" ry="18" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="159" rx="12" ry="15" fill="#3E8E5E"/>
+  <ellipse cx="172" cy="161" rx="8" ry="11" fill="#5BB07E"/>
+  <circle cx="167" cy="153" r="3.8" fill="#FFFFFF"/>
+  <circle cx="177" cy="166" r="2.2" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M156 154 Q172 144 188 154 Q188 150 182 148" stroke="#1F4030" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M138 176 Q140 183 144 176" stroke="#E0A070" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth (confident grin) -->
+  <path d="M122 192 Q140 210 158 192 Q140 200 122 192 Z" fill="#C0506A"/>
+  <path d="M124 193 Q140 202 156 193" stroke="#9E3A52" stroke-width="1.5" fill="none"/>
+  <path d="M128 193 Q140 199 152 193 L152 191 Q140 194 128 191 Z" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M120 192 Q116 190 114 188" stroke="#9E3A52" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M160 192 Q164 190 166 188" stroke="#9E3A52" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

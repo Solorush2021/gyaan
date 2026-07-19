@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <circle cx="140" cy="140" r="140" fill="#FFF4E8"/>
+  <!-- shoulders/clothing -->
+  <path d="M50 280 C50 220 90 200 140 200 C190 200 230 220 230 280 Z" fill="#D87858"/>
+  <path d="M50 280 C50 220 90 200 140 200 C190 200 230 220 230 280 Z" fill="#B85838" opacity="0.5"/>
+  <!-- hood collar -->
+  <path d="M95 215 Q140 200 185 215 L180 235 Q140 222 100 235 Z" fill="#F0D8C8"/>
+  <!-- neck -->
+  <path d="M120 180 L120 205 Q140 218 160 205 L160 180 Z" fill="#FFE0C8"/>
+  <path d="M120 195 Q140 210 160 195 L160 205 Q140 218 120 205 Z" fill="#F0C8A8"/>
+  <!-- hair back - ginger, short with volume -->
+  <path d="M58 130 Q58 65 140 50 Q222 65 222 130 L218 165 Q208 155 205 145 L205 108 Q185 90 140 90 Q95 90 75 108 L75 145 Q72 155 62 165 Z" fill="#E8783A"/>
+  <!-- face -->
+  <ellipse cx="140" cy="135" rx="78" ry="86" fill="#FFE0C8"/>
+  <!-- face shadow -->
+  <path d="M140 60 Q210 65 215 130 Q215 175 195 205 Q210 170 205 140 Q200 90 140 85 Z" fill="#F0C8A8" opacity="0.55"/>
+  <!-- ears -->
+  <ellipse cx="63" cy="142" rx="8" ry="14" fill="#FFE0C8"/>
+  <ellipse cx="217" cy="142" rx="8" ry="14" fill="#F0C8A8"/>
+  <!-- hair front - spiky messy fringe -->
+  <path d="M62 112 Q60 62 105 54 Q140 45 175 54 Q220 62 218 112 L210 100 L195 110 L188 92 L170 105 L155 88 L140 100 L125 88 L110 105 L92 92 L85 110 L70 100 Z" fill="#F08848"/>
+  <!-- hair shadow -->
+  <path d="M62 112 Q60 62 105 54 Q140 45 175 54 Q220 62 218 112 Q205 72 170 66 Q140 60 110 66 Q75 72 62 112 Z" fill="#C85820"/>
+  <!-- spiky top tufts -->
+  <path d="M115 56 L120 42 L128 54 Z" fill="#F08848"/>
+  <path d="M148 50 L156 38 L162 52 Z" fill="#F08848"/>
+  <!-- freckles -->
+  <circle cx="100" cy="168" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <circle cx="108" cy="172" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <circle cx="116" cy="170" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <circle cx="164" cy="170" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <circle cx="172" cy="172" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <circle cx="180" cy="168" r="1.5" fill="#C8783A" opacity="0.7"/>
+  <!-- eyebrows -->
+  <path d="M96 116 Q108 110 122 115" stroke="#A8481E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M158 115 Q172 110 184 116" stroke="#A8481E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- eyes whites -->
+  <ellipse cx="112" cy="142" rx="13" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="168" cy="142" rx="13" ry="15" fill="#FFFFFF"/>
+  <!-- iris green -->
+  <ellipse cx="112" cy="144" rx="10" ry="13" fill="#5AA878"/>
+  <ellipse cx="168" cy="144" rx="10" ry="13" fill="#5AA878"/>
+  <ellipse cx="112" cy="146" rx="6" ry="9" fill="#2E6A48"/>
+  <ellipse cx="168" cy="146" rx="6" ry="9" fill="#2E6A48"/>
+  <!-- highlight -->
+  <circle cx="116" cy="139" r="4" fill="#FFFFFF"/>
+  <circle cx="172" cy="139" r="4" fill="#FFFFFF"/>
+  <circle cx="108" cy="149" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="164" cy="149" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <!-- upper lash -->
+  <path d="M99 131 Q112 126 125 132" stroke="#2A1A0E" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M155 132 Q168 126 181 131" stroke="#2A1A0E" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <!-- nose -->
+  <path d="M139 158 Q140 164 143 162" stroke="#E0B098" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- mouth - grin -->
+  <path d="M124 175 Q140 190 156 175 Q140 182 124 175 Z" fill="#C85858"/>
+  <path d="M124 175 Q140 190 156 175" stroke="#9A3838" stroke-width="2" fill="none"/>
+  <path d="M130 178 Q140 183 150 178 L150 180 Q140 184 130 180 Z" fill="#FFFFFF"/>
+  <!-- cheek blush -->
+  <ellipse cx="90" cy="172" rx="12" ry="6.5" fill="#FFB8A8" opacity="0.5"/>
+  <ellipse cx="190" cy="172" rx="12" ry="6.5" fill="#FFB8A8" opacity="0.5"/>
+</svg>

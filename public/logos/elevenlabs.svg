@@ -1,0 +1,35 @@
+<svg width="876" height="876" viewBox="0 0 876 876" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    path:not([fill="none"]), 
+    circle:not([fill="none"]), 
+    rect:not([fill="none"]), 
+    polygon:not([fill="none"]), 
+    ellipse:not([fill="none"]) {
+      fill: #475569 !important;
+    }
+    path[stroke]:not([stroke="none"]), 
+    circle[stroke]:not([stroke="none"]), 
+    rect[stroke]:not([stroke="none"]), 
+    polygon[stroke]:not([stroke="none"]) {
+      stroke: #475569 !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      path:not([fill="none"]), 
+      circle:not([fill="none"]), 
+      rect:not([fill="none"]), 
+      polygon:not([fill="none"]), 
+      ellipse:not([fill="none"]) {
+        fill: #cbd5e1 !important;
+      }
+      path[stroke]:not([stroke="none"]), 
+      circle[stroke]:not([stroke="none"]), 
+      rect[stroke]:not([stroke="none"]), 
+      polygon[stroke]:not([stroke="none"]) {
+        stroke: #cbd5e1 !important;
+      }
+    }
+  </style>
+
+  <path d="M498 228H582V648H498V228Z" fill="black"/>
+  <path d="M294 228H378V648H294V228Z" fill="black"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Background -->
+  <circle cx="140" cy="140" r="140" fill="#E8F0FF"/>
+
+  <!-- Shoulders / tidy cardigan -->
+  <path d="M48 280 Q48 222 92 204 L188 204 Q232 222 232 280 Z" fill="#B8A8E0"/>
+  <path d="M48 280 Q48 222 92 204 L188 204 Q232 222 232 280 Z" fill="#9A88C9" opacity="0.3"/>
+  <!-- White shirt under cardigan -->
+  <path d="M108 204 Q140 220 172 204 L172 240 L108 240 Z" fill="#FFFFFF"/>
+  <path d="M108 204 L140 224 L172 204" stroke="#D8D0E8" stroke-width="1.5" fill="none"/>
+  <!-- Cardigan V edge -->
+  <path d="M92 204 L108 204 L140 224 L172 204 L188 204" stroke="#9A88C9" stroke-width="2" fill="none"/>
+  <!-- small lapel pin (helpful badge) -->
+  <circle cx="98" cy="232" r="6" fill="#FFD24A"/>
+  <circle cx="98" cy="232" r="6" fill="#E8B430" opacity="0.4"/>
+  <path d="M98 229 L98 235 M95 232 L101 232" stroke="#7A6020" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <path d="M120 188 L120 206 Q140 218 160 206 L160 188 Z" fill="#FFE0C8"/>
+  <path d="M120 188 L120 206 Q140 218 160 206 L160 188 Z" fill="#F0C8A8" opacity="0.5"/>
+
+  <!-- Hair back (chestnut, shoulder length, tidy) -->
+  <path d="M52 134 Q52 72 100 54 Q140 38 180 54 Q228 72 228 134 Q230 172 214 188 L200 184 Q210 158 206 128 L74 128 Q70 158 80 184 L66 188 Q50 172 52 134 Z" fill="#A87044"/>
+  <path d="M52 134 Q52 72 100 54 Q140 38 180 54 Q228 72 228 134 Q230 172 214 188 L208 180 Q218 158 214 122 Q200 72 180 64 L100 64 Q80 72 66 122 Q62 158 72 180 L66 188 Q50 172 52 134 Z" fill="#7E4E2A" opacity="0.45"/>
+
+  <!-- Face -->
+  <ellipse cx="140" cy="122" rx="76" ry="80" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M140 198 Q82 196 72 142 Q72 92 110 80 Q90 110 92 150 Q100 188 140 198 Z" fill="#F0C8A8" opacity="0.4"/>
+  <!-- Soft blush -->
+  <ellipse cx="86" cy="152" rx="13" ry="7.5" fill="#F5B8A8" opacity="0.55"/>
+  <ellipse cx="194" cy="152" rx="13" ry="7.5" fill="#F5B8A8" opacity="0.55"/>
+
+  <!-- Ears -->
+  <circle cx="64" cy="128" r="9" fill="#FFD6B0"/>
+  <circle cx="216" cy="128" r="9" fill="#FFD6B0"/>
+
+  <!-- Hair front: soft side-swept bangs -->
+  <path d="M64 122 Q64 68 108 56 Q140 46 150 78 Q160 50 180 58 Q216 70 216 122 Q206 96 184 94 Q180 78 160 84 Q156 96 144 92 Q132 100 120 86 Q100 80 96 94 Q74 96 64 122 Z" fill="#B8814E"/>
+  <!-- Side sweep shadow -->
+  <path d="M150 78 Q160 50 180 58 Q200 64 210 92 Q196 86 184 94 Q180 78 160 84 Q156 96 150 90 Z" fill="#7E4E2A" opacity="0.45"/>
+  <path d="M76 108 Q86 84 106 90 Q98 100 92 116 Z" fill="#7E4E2A" opacity="0.5"/>
+  <!-- Side hair -->
+  <path d="M56 132 Q54 168 68 184 L78 176 Q70 156 72 132 Z" fill="#A87044"/>
+  <path d="M224 132 Q226 168 212 184 L202 176 Q210 156 208 132 Z" fill="#A87044"/>
+
+  <!-- Eyebrows: slightly raised, welcoming -->
+  <path d="M94 108 Q108 102 124 108" stroke="#5E3A1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M156 108 Q172 102 186 108" stroke="#5E3A1E" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes: warm and welcoming -->
+  <ellipse cx="108" cy="140" rx="15" ry="17" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="142" rx="11" ry="13" fill="#C9882E"/>
+  <ellipse cx="108" cy="143" rx="9" ry="11" fill="#9A6620"/>
+  <circle cx="112" cy="136" r="4" fill="#FFFFFF"/>
+  <circle cx="104" cy="148" r="2" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M92 134 Q108 124 124 134" stroke="#4A2E1A" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+
+  <ellipse cx="172" cy="140" rx="15" ry="17" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="142" rx="11" ry="13" fill="#C9882E"/>
+  <ellipse cx="172" cy="143" rx="9" ry="11" fill="#9A6620"/>
+  <circle cx="176" cy="136" r="4" fill="#FFFFFF"/>
+  <circle cx="168" cy="148" r="2" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M156 134 Q172 124 188 134" stroke="#4A2E1A" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M138 158 Q140 164 143 158" stroke="#E0A888" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth: gentle welcoming smile -->
+  <path d="M122 174 Q140 188 158 174" stroke="#B85A5A" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M124 175 Q140 186 156 175 Q140 180 124 175 Z" fill="#E89090" opacity="0.55"/>
+</svg>

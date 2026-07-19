@@ -1,0 +1,156 @@
+﻿
+lib\audio\tts-providers.ts:278: * OpenMAIC keeps one internal VoxCPM request shape, then adapts it to the
+lib\audio\tts-providers.ts:875:      user: { uid: 'openmaic' },
+lib\config\feature-flags.ts:15: * MAIC Editor (Pro mode) gate. Default OFF — gates only the Pro toggle
+lib\config\feature-flags.ts:20:export function isMaicEditorEnabled(): boolean {
+lib\config\feature-flags.ts:21:  return readBoolean(process.env.NEXT_PUBLIC_MAIC_EDITOR_ENABLED);
+lib\config\feature-flags.ts:30:  return readBoolean(process.env.OPENMAIC_ENABLE_VOCATIONAL);
+lib\edit\edit-mode-lock.ts:24:const KEY_PREFIX = 'maic-editor:edit-lock';
+lib\edit\transitions.ts:10: * in the OpenMAIC playback chrome.
+lib\export\classroom-zip-types.ts:7:export const CLASSROOM_ZIP_EXTENSION = '.maic.zip';
+lib\i18n\locales\ar-SA.json:62:      "invalidZip": "ملف غير صالح. يرجى اختيار ملف .maic.zip صالح.",
+lib\i18n\locales\en-US.json:62:      "invalidZip": "Invalid file. Please select a valid .maic.zip file.",
+lib\i18n\locales\ja-JP.json:62:      "invalidZip": "無効なファイルです。有効な .maic.zip ファイルを選択してください。",
+lib\i18n\locales\pt-BR.json:62:      "invalidZip": "Arquivo inválido. Selecione um arquivo .maic.zip válido.",
+lib\i18n\locales\ru-RU.json:62:      "invalidZip": "Недопустимый файл. Выберите корректный файл .maic.zip.",
+lib\i18n\locales\zh-CN.json:62:      "invalidZip": "无效文件，请选择有效的 .maic.zip 文件。",
+lib\i18n\locales\zh-TW.json:62:      "invalidZip": "無效檔案，請選擇有效的 .maic.zip 檔案。",
+lib\import\use-import-pptx.ts:9:// pdfjs-dist (transitively pulled by `maic-importer/src`) uses dynamic
+lib\import\use-import-pptx.ts:12:import type * as MaicImport from '@maic/importer';
+lib\import\use-import-pptx.ts:16:export type PptxUpload = NonNullable<MaicImport.ImportPptxOptions['upload']>;
+lib\import\use-import-pptx.ts:35: * the bundled `maic-importer` dist that we load by URL to bypass
+lib\import\use-import-pptx.ts:60:        // `scripts/sync-maic-importer.mjs` copies the prebuilt dist into
+lib\import\use-import-pptx.ts:62:        const url = '/vendor/maic-importer/index.js';
+lib\import\use-import-pptx.ts:83:        )) as typeof MaicImport;
+lib\media\adapters\minimax-video-adapter.ts:58:  // Map OpenMAIC resolution to MiniMax format
+lib\pbl\types.ts:4: * Migrated from PBL-Nano with PBL prefix to avoid conflicts with MAIC-OSS types.
+lib\prompts\templates\procedural-skill-content\system.md:222:MAIC's renderer sends iframe messages using 
+`event.data.type` as the platform message field. Generated HTML must read `event.data.type`; do not invent alternate 
+message fields.
+lib\prompts\templates\procedural-skill-content\user.md:56:14. The listener must use `event.data.type` because MAIC's 
+renderer sends the platform message type in that field.
+lib\prompts\templates\requirements-to-outlines\system.md:52:### MAIC Platform Technical Constraints
+lib\prompts\templates\task-engine-outlines\system.md:3:You design vocational practice scenes for the MAIC Task Engine.
+lib\prompts\templates\task-engine-outlines\system.md:49:If the requirement is not suitable, do not force 
+procedural-skill. Generate a normal MAIC-style outline using only `slide` and ordinary interactive widgets: 
+`simulation`, `diagram`, `code`, `game`, and `visualization3d`. Do not use `procedural-skill` for non-vocational 
+topics. Match the ordinary MAIC-style course structure to the topic instead of forcing the 10-14 vocational 
+mixed-scene ratio.
+lib\prompts\templates\task-engine-outlines\system.md:92:- For non-vocational fallback, use a normal MAIC-style scene 
+count and mix for the topic.
+lib\prompts\templates\task-engine-outlines\system.md:105:- For non-vocational fallback outlines, ordinary MAIC widget 
+types are allowed, but `procedural-skill` is still forbidden.
+lib\prompts\templates\task-engine-outlines\system.md:340:- If the user request is not a vocational procedural task, 
+fall back to a normal MAIC-style outline and do not use procedural-skill.
+lib\prompts\templates\task-engine-outlines\system.md:352:- If the request is not suitable, the outline uses normal 
+MAIC-style slide and interactive scenes instead of forcing vocational task training.
+lib\prompts\templates\task-engine-outlines\user.md:33:If the request is not suitable, generate a normal MAIC-style 
+outline using slide plus ordinary interactive widgets only. Do not output `procedural-skill` for non-vocational topics.
+lib\types\provider.ts:75:  /** Default mode when OpenMAIC does not send an explicit config. */
+lib\utils\database.ts:29: * MAIC Local Database
+lib\utils\database.ts:211:const DATABASE_NAME = 'MAIC-Database';
+lib\utils\database.ts:215: * MAIC Database Instance
+lib\utils\database.ts:217:class MAICDatabase extends Dexie {
+lib\utils\database.ts:417:export const db = new MAICDatabase();
+lib\web-search\baidu.ts:26:    'X-Appbuilder-From': 'openmaic',
+lib\web-search\minimax.ts:75:      'MM-API-Source': 'OpenMAIC',
+configs\storage.ts:1:export const LOCALSTORAGE_KEY_DISCARDED_DB = 'MAIC_DISCARDED_DB';
+tests\config\feature-flags.test.ts:3:  isMaicEditorEnabled,
+tests\config\feature-flags.test.ts:9:const FLAG = 'NEXT_PUBLIC_MAIC_EDITOR_ENABLED';
+tests\config\feature-flags.test.ts:11:describe('isMaicEditorEnabled', () => {
+tests\config\feature-flags.test.ts:28:    expect(isMaicEditorEnabled()).toBe(false);
+tests\config\feature-flags.test.ts:33:    expect(isMaicEditorEnabled()).toBe(true);
+tests\config\feature-flags.test.ts:38:    expect(isMaicEditorEnabled()).toBe(true);
+tests\config\feature-flags.test.ts:43:    expect(isMaicEditorEnabled()).toBe(false);
+tests\config\feature-flags.test.ts:48:    expect(isMaicEditorEnabled()).toBe(false);
+tests\config\feature-flags.test.ts:53:  const flag = 'OPENMAIC_ENABLE_VOCATIONAL';
+tests\edit\round-trip\image-data-url.test.ts:17: * upload when OpenMAIC has no upload backend.
+tests\edit\round-trip\text-content.test.ts:19: * Caveat (documented for future PRs): the OpenMAIC codebase has no
+tests\edit\round-trip\text-format.test.ts:18: * via a temporary console.log test. The OpenMAIC exporter (pptxgenjs) 
+emits
+tests\generation\scene-content-route-vocational-gate.test.ts:7:const VOCATIONAL_FLAG = 'OPENMAIC_ENABLE_VOCATIONAL';
+tests\generation\task-engine-outline-route.test.ts:5:const VOCATIONAL_FLAG = 'OPENMAIC_ENABLE_VOCATIONAL';
+tests\prompts\task-engine-outlines.test.ts:29:    expect(text).toMatch(/normal MAIC-style outline/i);
+tests\web-search\baidu.test.ts:31:            lemma_title: 'OpenMAIC',
+tests\web-search\baidu.test.ts:32:            lemma_url: 'https://baike.baidu.com/item/OpenMAIC',
+tests\web-search\baidu.test.ts:45:              title: 'OpenMAIC paper',
+tests\web-search\baidu.test.ts:59:      query: 'OpenMAIC',
+tests\web-search\baidu.test.ts:70:      
+'https://appbuilder.baidu.com/v2/baike/lemma/get_content?search_type=lemmaTitle&search_key=OpenMAIC',
+tests\web-search\baidu.test.ts:71:      
+'https://qianfan.baidubce.com/v2/tools/baidu_scholar/search?wd=OpenMAIC&pageNum=0&enable_ai_abstract=true',
+tests\web-search\baidu.test.ts:74:      'OpenMAIC - Baidu Baike',
+tests\web-search\baidu.test.ts:75:      'OpenMAIC paper',
+tests\web-search\baidu.test.ts:108:    await searchWithBaidu({ query: 'OpenMAIC', apiKey: 'baidu-key' });
+tests\web-search\baidu.test.ts:112:      
+'https://appbuilder.baidu.com/v2/baike/lemma/get_content?search_type=lemmaTitle&search_key=OpenMAIC',
+tests\web-search\baidu.test.ts:113:      
+'https://qianfan.baidubce.com/v2/tools/baidu_scholar/search?wd=OpenMAIC&pageNum=0&enable_ai_abstract=true',
+tests\web-search\minimax.test.ts:22:              title: 'OpenMAIC',
+tests\web-search\minimax.test.ts:23:              link: 'https://github.com/THU-MAIC/OpenMAIC',
+tests\web-search\minimax.test.ts:24:              snippet: 'OpenMAIC project repository.',
+tests\web-search\minimax.test.ts:57:          'MM-API-Source': 'OpenMAIC',
+tests\web-search\minimax.test.ts:66:        title: 'OpenMAIC',
+tests\web-search\minimax.test.ts:67:        url: 'https://github.com/THU-MAIC/OpenMAIC',
+tests\web-search\minimax.test.ts:68:        content: 'OpenMAIC project repository.',
+skills\openmaic\SKILL.md:2:name: openmaic
+skills\openmaic\SKILL.md:3:description: Guided SOP for setting up and using OpenMAIC from OpenClaw. Use when the user 
+wants to clone the OpenMAIC repo, choose a startup mode, configure recommended API keys, start the service, or 
+generate a classroom from requirements or a PDF. Run one phase at a time and ask for confirmation before each 
+state-changing step.
+skills\openmaic\SKILL.md:8:# OpenMAIC Skill
+skills\openmaic\SKILL.md:17:- Do not assume the OpenClaw agent's own model or API key will be reused by OpenMAIC.
+skills\openmaic\SKILL.md:18:- OpenMAIC classroom generation uses OpenMAIC server-side provider config.
+skills\openmaic\SKILL.md:20:- Only OpenMAIC server-side config files may control provider selection and defaults.
+skills\openmaic\SKILL.md:35:      "openmaic": {
+skills\openmaic\SKILL.md:39:          "repoDir": "/path/to/OpenMAIC",
+skills\openmaic\SKILL.md:58:If no `accessCode` in config, ask the user how they want to use OpenMAIC:
+skills\openmaic\SKILL.md:60:1. **Use hosted OpenMAIC** (recommended for quick start) — Requires an access code from 
+open.maic.chat. No local setup needed.
+skills\openmaic\SKILL.md:70:Use this when the user has not installed OpenMAIC yet or when you need to confirm which 
+local checkout to use.
+skills\openmaic\SKILL.md:86:### 4. Start And Verify OpenMAIC
+skills\openmaic\SKILL.md:88:After the user has chosen a startup mode and configured keys, start OpenMAIC using the 
+chosen method, then verify the service with `GET {url}/api/health`.
+skills\openmaic\references\clone.md:5:Establish which OpenMAIC checkout will be used for setup and runtime actions.
+skills\openmaic\references\clone.md:9:1. Check whether OpenMAIC already exists locally.
+skills\openmaic\references\clone.md:24:git clone https://github.com/THU-MAIC/OpenMAIC.git
+skills\openmaic\references\clone.md:25:cd OpenMAIC
+skills\openmaic\references\generate-flow.md:7:- OpenMAIC is healthy at the selected `url`
+skills\openmaic\references\generate-flow.md:10:> **Hosted mode**: If using hosted OpenMAIC (open.maic.chat), all
+skills\openmaic\references\generate-flow.md:122:- Do not try to recover from auth, provider, model, or base URL errors 
+by changing request parameters. Tell the user to fix OpenMAIC server-side config and retry only after they confirm.
+skills\openmaic\references\hosted-mode.md:3:Use this when the user has an access code from open.maic.chat and wants to 
+skip local setup.
+skills\openmaic\references\hosted-mode.md:7:1. Read `accessCode` from skill config (`~/.openclaw/openclaw.json` → 
+`skills.entries.openmaic.config.accessCode`).
+skills\openmaic\references\hosted-mode.md:11:   Edit ~/.openclaw/openclaw.json and set 
+skills.entries.openmaic.config.accessCode to your access code (starts with sk-).
+skills\openmaic\references\hosted-mode.md:14:4. Verify connectivity: `GET https://open.maic.chat/api/health` with 
+`Authorization: Bearer <access-code>`
+skills\openmaic\references\hosted-mode.md:16:   - On failure (401): access code is invalid, ask the user to check or 
+regenerate at open.maic.chat and update the config file.
+skills\openmaic\references\hosted-mode.md:23:- **Base URL**: `https://open.maic.chat` (hardcoded, not configurable)
+skills\openmaic\references\hosted-mode.md:25:- **Classroom URL**: `https://open.maic.chat/classroom/{id}`
+skills\openmaic\references\hosted-mode.md:29:Before generating, query `GET https://open.maic.chat/api/health` (with 
+auth header) to check `capabilities`. Automatically include optional feature flags (`enableWebSearch`, 
+`enableImageGeneration`, etc.) based on what the server supports. Do not send new fields if the server does not return 
+`capabilities` (older version). This ensures forward compatibility — the hosted instance may update on a different 
+schedule than the local codebase.
+skills\openmaic\references\hosted-mode.md:40:| 401 | Invalid access code | Ask user to check their code or generate a 
+new one at open.maic.chat |
+skills\openmaic\references\provider-keys.md:5:OpenMAIC generation does not automatically reuse the OpenClaw agent's 
+current model or API key.
+skills\openmaic\references\provider-keys.md:7:OpenMAIC server APIs resolve their own model and provider keys from 
+OpenMAIC server-side config.
+skills\openmaic\references\provider-keys.md:11:If the user wants to change any of those, they must edit OpenMAIC 
+server-side config files.
+skills\openmaic\references\provider-keys.md:47:- OpenMAIC server fallback is currently `gpt-4o-mini` if 
+`DEFAULT_MODEL` is unset.
+skills\openmaic\references\provider-keys.md:92:Do not recommend bare model IDs such as `gemini-3-flash-preview` by 
+themselves, because OpenMAIC will otherwise parse them as OpenAI models.
+skills\openmaic\references\provider-keys.md:130:- "I recommend configuring OpenMAIC through `.env.local` first. Please 
+edit that file locally and tell me when you're done."
+skills\openmaic\references\startup-modes.md:5:Help the user choose how OpenMAIC should run before you start anything.
+
+

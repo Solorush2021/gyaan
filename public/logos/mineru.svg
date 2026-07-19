@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <style>
+    path:not([fill="none"]), 
+    circle:not([fill="none"]), 
+    rect:not([fill="none"]), 
+    polygon:not([fill="none"]), 
+    ellipse:not([fill="none"]) {
+      fill: #475569 !important;
+    }
+    path[stroke]:not([stroke="none"]), 
+    circle[stroke]:not([stroke="none"]), 
+    rect[stroke]:not([stroke="none"]), 
+    polygon[stroke]:not([stroke="none"]) {
+      stroke: #475569 !important;
+    }
+    @media (prefers-color-scheme: dark) {
+      path:not([fill="none"]), 
+      circle:not([fill="none"]), 
+      rect:not([fill="none"]), 
+      polygon:not([fill="none"]), 
+      ellipse:not([fill="none"]) {
+        fill: #cbd5e1 !important;
+      }
+      path[stroke]:not([stroke="none"]), 
+      circle[stroke]:not([stroke="none"]), 
+      rect[stroke]:not([stroke="none"]), 
+      polygon[stroke]:not([stroke="none"]) {
+        stroke: #cbd5e1 !important;
+      }
+    }
+  </style>
+
+  
+
+  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20M4 19.5V3.5A2.5 2.5 0 0 1 6.5 1h10.5L20 4.5V17M14 6v8l-3-2-3 2V6h6z" />
+</svg>

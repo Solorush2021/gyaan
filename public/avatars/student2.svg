@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <circle cx="140" cy="140" r="140" fill="#E8F8FF"/>
+  <!-- Headphones band (behind head) -->
+  <path d="M52 130 Q52 60 140 56 Q228 60 228 130" stroke="#3A4A5A" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M54 130 Q56 64 140 60" stroke="#5A6A7A" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Shoulders / uniform -->
+  <path d="M40 280 Q40 210 90 195 L110 188 Q140 205 170 188 L190 195 Q240 210 240 280 Z" fill="#3A5A88"/>
+  <path d="M110 188 Q140 205 170 188 L170 200 Q140 215 110 200 Z" fill="#2C4870"/>
+  <!-- Collar -->
+  <path d="M118 192 L140 208 L162 192 L162 200 L140 214 L118 200 Z" fill="#FFFFFF"/>
+  <!-- Neck -->
+  <path d="M122 165 L122 195 Q140 205 158 195 L158 165 Z" fill="#FFE0C8"/>
+  <path d="M122 180 Q140 192 158 180 L158 195 Q140 205 122 195 Z" fill="#F0C8A8"/>
+  <!-- Hair back (navy, short neat) -->
+  <path d="M58 125 Q54 70 100 54 Q140 42 180 54 Q226 70 222 125 L222 150 Q210 140 200 138 L200 108 Q190 92 140 92 Q90 92 80 108 L80 138 Q70 140 58 150 Z" fill="#2A3850"/>
+  <!-- Face -->
+  <ellipse cx="140" cy="120" rx="76" ry="80" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M140 44 Q186 50 215 92 Q215 128 198 144 L198 110 Q190 92 140 92 Z" fill="#F0C8A8" opacity="0.5"/>
+  <!-- Side hair (short, framing) -->
+  <path d="M58 125 Q56 160 72 172 L86 162 Q74 145 74 125 Z" fill="#2A3850"/>
+  <path d="M222 125 Q224 160 208 172 L194 162 Q206 145 206 125 Z" fill="#2A3850"/>
+  <!-- Bangs (neat side-part) -->
+  <path d="M64 108 Q60 64 105 54 Q140 46 178 54 Q220 64 216 110 Q206 92 184 96 L168 112 Q158 96 138 100 L130 116 Q116 96 96 102 L80 116 Q72 104 64 108 Z" fill="#384866"/>
+  <!-- Side-part detail -->
+  <path d="M132 96 Q160 92 184 96 L178 120 Q160 104 138 110 Z" fill="#222E44"/>
+  <!-- Headphone ear cups -->
+  <g>
+    <rect x="46" y="118" width="22" height="32" rx="10" fill="#3A4A5A"/>
+    <rect x="49" y="122" width="16" height="24" rx="7" fill="#2A3848"/>
+    <circle cx="57" cy="134" r="4" fill="#5A7090"/>
+  </g>
+  <g>
+    <rect x="212" y="118" width="22" height="32" rx="10" fill="#3A4A5A"/>
+    <rect x="215" y="122" width="16" height="24" rx="7" fill="#2A3848"/>
+    <circle cx="223" cy="134" r="4" fill="#5A7090"/>
+  </g>
+  <!-- Eyebrows (neutral calm) -->
+  <path d="M100 110 Q114 106 128 110" stroke="#1E2838" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M152 110 Q166 106 180 110" stroke="#1E2838" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Eyes: calm deep blue -->
+  <g>
+    <path d="M96 136 Q113 124 130 136 Q113 152 96 136 Z" fill="#FFFFFF"/>
+    <ellipse cx="113" cy="136" rx="10" ry="11" fill="#3A7AB0"/>
+    <ellipse cx="113" cy="136" rx="10" ry="11" fill="#2A5878" opacity="0.5"/>
+    <circle cx="113" cy="139" r="5" fill="#1A3850"/>
+    <circle cx="110" cy="133" r="2.5" fill="#FFFFFF"/>
+    <path d="M96 136 Q113 124 130 136" stroke="#3A3A3A" stroke-width="2" fill="none"/>
+  </g>
+  <g>
+    <path d="M150 136 Q167 124 184 136 Q167 152 150 136 Z" fill="#FFFFFF"/>
+    <ellipse cx="167" cy="136" rx="10" ry="11" fill="#3A7AB0"/>
+    <ellipse cx="167" cy="136" rx="10" ry="11" fill="#2A5878" opacity="0.5"/>
+    <circle cx="167" cy="139" r="5" fill="#1A3850"/>
+    <circle cx="164" cy="133" r="2.5" fill="#FFFFFF"/>
+    <path d="M150 136 Q167 124 184 136" stroke="#3A3A3A" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Subtle blush -->
+  <ellipse cx="98" cy="158" rx="8" ry="4.5" fill="#F5A8A0" opacity="0.4"/>
+  <ellipse cx="182" cy="158" rx="8" ry="4.5" fill="#F5A8A0" opacity="0.4"/>
+  <!-- Nose -->
+  <path d="M139 150 Q137 158 140 161" stroke="#E0B098" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Mouth: gentle neutral -->
+  <path d="M134 173 Q140 177 146 173" stroke="#B06050" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

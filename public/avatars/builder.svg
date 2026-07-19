@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Builder — soft amber bg, practical, auburn short hair, friendly determined smile, overalls strap -->
+  <circle cx="140" cy="140" r="140" fill="#FFF4E0"/>
+
+  <!-- Overalls / shirt base (shoulders) -->
+  <path d="M48 280 C56 224 92 206 140 206 C188 206 224 224 232 280 Z" fill="#8FA868"/>
+  <path d="M48 280 C56 224 92 206 140 206 C188 206 224 224 232 280 Z" fill="#6F8848" opacity="0.35"/>
+  <!-- t-shirt collar under -->
+  <path d="M112 208 C120 218 160 218 168 208 L158 204 C150 212 130 212 122 204 Z" fill="#F0D8A8"/>
+
+  <!-- Overalls straps -->
+  <path d="M128 222 C129 214 134 210 138 210 L140 214 L142 210 C146 210 151 214 152 222 L156 280 L124 280 Z" fill="#7E9554"/>
+  <path d="M128 222 C129 214 134 210 138 210 L140 214 C136 214 132 217 131 224 L127 280 L124 280 Z" fill="#94AB68" opacity="0.6"/>
+  <path d="M152 222 C151 214 146 210 142 210 L140 214 C144 214 148 217 149 224 L153 280 L156 280 Z" fill="#5E7240" opacity="0.5"/>
+  <!-- center bib patch -->
+  <path d="M132 226 C132 218 136 214 140 214 C144 214 148 218 148 226 L148 248 L132 248 Z" fill="#7E9554"/>
+  <!-- button -->
+  <circle cx="140" cy="230" r="2.6" fill="#E8C870"/>
+  <circle cx="140" cy="230" r="1.2" fill="#A88830"/>
+
+  <!-- Neck -->
+  <path d="M122 178 L122 206 C128 214 152 214 158 206 L158 178 Z" fill="#FFE0C8"/>
+  <path d="M122 196 C128 204 152 204 158 196 L158 178 L122 178 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Hair back: short auburn, manageable -->
+  <path d="M56 150 C52 100 86 50 140 50 C194 50 228 100 224 150 C224 170 220 186 214 198 C210 188 208 176 208 166 C212 146 208 122 198 106 C186 122 168 130 152 130 C162 110 158 88 148 74 C134 88 130 110 134 130 C118 124 104 114 96 98 C88 114 84 134 88 152 C78 144 70 132 66 116 C60 142 60 174 68 204 C58 198 54 186 51 170 C50 164 56 150 56 150 Z" fill="#A8542A"/>
+  <path d="M56 150 C52 100 86 50 140 50 C194 50 228 100 224 150 C224 166 221 180 217 192 C220 168 216 144 208 126 C200 144 188 154 176 156 C182 134 178 110 168 94 C154 108 124 114 102 102 C108 126 104 148 94 162 C82 156 72 144 66 128 C60 152 60 184 68 212 C59 206 53 194 50 178 C49 170 55 162 56 150 Z" fill="#C06A38"/>
+
+  <!-- Face base -->
+  <path d="M70 132 C70 92 100 70 140 70 C180 70 210 92 210 132 C210 174 182 206 140 206 C98 206 70 174 70 132 Z" fill="#FFE0C8"/>
+  <!-- Face shadow (right) -->
+  <path d="M186 88 C202 100 210 116 210 132 C210 174 182 206 140 206 C128 206 117 204 108 200 C148 196 178 168 184 130 C186 116 187 102 186 88 Z" fill="#F0C8A8" opacity="0.55"/>
+
+  <!-- Ears -->
+  <ellipse cx="72" cy="140" rx="8" ry="12" fill="#FFE0C8"/>
+  <ellipse cx="208" cy="140" rx="8" ry="12" fill="#F0C8A8"/>
+
+  <!-- Hair front: short textured fringe -->
+  <path d="M66 130 C62 92 96 60 140 60 C184 60 218 92 214 130 C212 138 208 144 204 148 C208 126 202 106 190 94 C196 112 192 128 182 138 C188 118 182 98 170 86 C172 108 166 124 154 132 C158 110 152 92 140 80 C128 92 124 110 126 132 C114 122 106 106 108 86 C96 98 90 118 94 138 C82 128 74 110 78 92 C68 104 62 122 64 130 Z" fill="#A8542A"/>
+  <!-- fringe texture pieces -->
+  <path d="M104 92 C118 82 140 80 160 88 C142 84 120 84 104 92 Z" fill="#8A4422"/>
+  <!-- little cowlick / sprout on top -->
+  <path d="M138 62 C136 54 138 48 142 46 C146 48 148 54 146 62 C144 58 140 58 138 62 Z" fill="#A8542A"/>
+  <path d="M140 60 C139 54 141 50 143 49 C145 50 146 54 145 60 C144 57 141 57 140 60 Z" fill="#C06A38"/>
+  <!-- highlight tone -->
+  <path d="M110 88 C128 80 152 80 168 88 C152 84 128 84 110 88 Z" fill="#C8723E" opacity="0.7"/>
+
+  <!-- Eyebrows: determined, slightly angled -->
+  <path d="M98 118 C108 115 122 116 130 121" stroke="#6B3818" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M150 121 C158 116 172 115 182 118" stroke="#6B3818" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes: warm friendly open -->
+  <ellipse cx="116" cy="142" rx="11" ry="13" fill="#FFFFFF"/>
+  <ellipse cx="116" cy="143" rx="8" ry="10.5" fill="#A87850"/>
+  <ellipse cx="116" cy="144" rx="5.5" ry="7.5" fill="#6B4A2A"/>
+  <ellipse cx="116" cy="145" rx="2.5" ry="3.5" fill="#3E2A18"/>
+  <circle cx="119" cy="139" r="2.8" fill="#FFFFFF"/>
+  <circle cx="113" cy="146" r="1.4" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M102 142 C109 134 123 134 130 142" stroke="#6B3818" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <ellipse cx="164" cy="142" rx="11" ry="13" fill="#FFFFFF"/>
+  <ellipse cx="164" cy="143" rx="8" ry="10.5" fill="#A87850"/>
+  <ellipse cx="164" cy="144" rx="5.5" ry="7.5" fill="#6B4A2A"/>
+  <ellipse cx="164" cy="145" rx="2.5" ry="3.5" fill="#3E2A18"/>
+  <circle cx="167" cy="139" r="2.8" fill="#FFFFFF"/>
+  <circle cx="161" cy="146" r="1.4" fill="#FFFFFF" opacity="0.7"/>
+  <path d="M150 142 C157 134 171 134 178 142" stroke="#6B3818" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M139 158 C137 164 137 168 140 169 C143 168 143 164 141 158" stroke="#E0B090" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Friendly determined smile (broad) -->
+  <path d="M120 182 C130 193 150 193 160 182 C150 187 130 187 120 182 Z" fill="#FFFFFF"/>
+  <path d="M122 183 C132 189 148 189 158 183 C150 185 132 185 122 183 Z" fill="#E8909A" opacity="0.45"/>
+  <path d="M120 182 C130 192 150 192 160 182" stroke="#C9646A" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+
+  <!-- Blush -->
+  <ellipse cx="102" cy="170" rx="11" ry="6" fill="#F5B088" opacity="0.5"/>
+  <ellipse cx="178" cy="170" rx="11" ry="6" fill="#F5B088" opacity="0.5"/>
+</svg>

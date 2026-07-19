@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Scholar: refined, glasses, neat dark hair, composed slight smile -->
+  <defs>
+    <clipPath id="scholarFaceClip">
+      <path d="M66 122 Q66 64 140 64 Q214 64 214 122 Q214 176 196 196 L196 230 L84 230 L84 196 Q66 176 66 122 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pastel apricot background -->
+  <circle cx="140" cy="140" r="140" fill="#FFF0E8"/>
+
+  <!-- Shoulders / collar (academic) -->
+  <path d="M56 280 Q56 216 108 204 L172 204 Q224 216 224 280 Z" fill="#3D4A6B"/>
+  <path d="M112 208 L140 252 L168 208 Q150 220 140 220 Q130 220 112 208 Z" fill="#FFFFFF"/>
+  <path d="M112 208 L128 220 L124 226 L116 214 Z" fill="#2C3654"/>
+  <path d="M168 208 L152 220 L156 226 L164 214 Z" fill="#2C3654"/>
+  <!-- tie -->
+  <path d="M134 220 L146 220 L148 244 L140 262 L132 244 Z" fill="#A8434F"/>
+  <path d="M136 220 L144 220 L142 232 L138 232 Z" fill="#7E2E38"/>
+
+  <!-- Neck -->
+  <path d="M120 188 L120 212 Q140 222 160 212 L160 188 Z" fill="#ffe0c8"/>
+  <path d="M120 202 Q140 214 160 202 L160 212 Q140 222 120 212 Z" fill="#f0c8a8"/>
+
+  <!-- Hair back -->
+  <path d="M58 132 Q56 70 104 58 Q140 48 176 58 Q224 70 222 132 Q222 160 214 180 L208 200 Q198 186 196 170 L196 124 Q196 100 168 94 Q140 90 112 94 Q84 100 84 124 L84 170 Q82 186 72 200 L66 180 Q58 160 58 132 Z" fill="#3A2A22"/>
+  <path d="M58 132 Q56 70 104 58 L100 78 Q76 92 70 132 Q66 158 72 180 L66 180 Q58 160 58 132 Z" fill="#261B16" opacity="0.6"/>
+  <path d="M222 132 Q224 70 176 58 L180 78 Q204 92 210 132 Q214 158 208 180 L214 180 Q222 160 222 132 Z" fill="#261B16" opacity="0.6"/>
+
+  <!-- Face base -->
+  <path d="M74 126 Q74 74 140 74 Q206 74 206 126 Q206 174 186 194 Q168 212 140 212 Q112 212 94 194 Q74 174 74 126 Z" fill="#ffe0c8"/>
+  <!-- Face shadow -->
+  <g clip-path="url(#scholarFaceClip)">
+    <path d="M74 126 Q74 100 92 88 Q88 142 96 180 Q86 190 78 180 Q74 158 74 126 Z" fill="#f0c8a8" opacity="0.6"/>
+    <path d="M206 126 Q206 100 188 88 Q192 142 184 180 Q194 190 202 180 Q206 158 206 126 Z" fill="#f0c8a8" opacity="0.6"/>
+    <ellipse cx="98" cy="168" rx="12" ry="7" fill="#E89A82" opacity="0.4"/>
+    <ellipse cx="182" cy="168" rx="12" ry="7" fill="#E89A82" opacity="0.4"/>
+  </g>
+
+  <!-- Ears -->
+  <ellipse cx="76" cy="150" rx="8" ry="13" fill="#ffe0c8"/>
+  <ellipse cx="76" cy="152" rx="3.5" ry="6" fill="#f0c8a8"/>
+  <ellipse cx="204" cy="150" rx="8" ry="13" fill="#ffe0c8"/>
+  <ellipse cx="204" cy="152" rx="3.5" ry="6" fill="#f0c8a8"/>
+
+  <!-- Hair front (neat, parted, dark brown) -->
+  <path d="M66 134 Q62 80 110 66 Q140 58 170 66 Q218 80 214 134 Q210 138 204 134 Q198 110 184 104 Q176 116 166 110 Q156 122 146 114 Q140 124 134 114 Q124 122 114 110 Q104 116 96 104 Q82 110 76 134 Q70 138 66 134 Z" fill="#4A332A"/>
+  <path d="M74 134 Q72 160 84 178 L82 158 Q80 144 78 138 Z" fill="#3A2A22"/>
+  <path d="M206 134 Q208 160 196 178 L198 158 Q200 144 202 138 Z" fill="#3A2A22"/>
+  <path d="M132 68 Q140 92 138 116 Q134 96 130 72 Z" fill="#2A1D17" opacity="0.7"/>
+  <path d="M96 78 Q120 64 150 66 Q120 70 104 90 Z" fill="#6A4A3A" opacity="0.5"/>
+
+  <!-- Eyebrows (composed) -->
+  <path d="M94 138 Q108 134 124 138" stroke="#2A1D17" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M156 138 Q172 134 186 138" stroke="#2A1D17" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (refined, behind glasses) -->
+  <ellipse cx="108" cy="160" rx="13" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="161" rx="10" ry="12" fill="#7A5C3A"/>
+  <ellipse cx="108" cy="162" rx="7" ry="9" fill="#A88456"/>
+  <circle cx="104" cy="156" r="3" fill="#FFFFFF"/>
+  <circle cx="112" cy="166" r="1.8" fill="#FFFFFF" opacity="0.8"/>
+
+  <ellipse cx="172" cy="160" rx="13" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="161" rx="10" ry="12" fill="#7A5C3A"/>
+  <ellipse cx="172" cy="162" rx="7" ry="9" fill="#A88456"/>
+  <circle cx="168" cy="156" r="3" fill="#FFFFFF"/>
+  <circle cx="176" cy="166" r="1.8" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Glasses (round, refined) -->
+  <circle cx="108" cy="160" r="20" fill="none" stroke="#2C3654" stroke-width="2.5"/>
+  <circle cx="172" cy="160" r="20" fill="none" stroke="#2C3654" stroke-width="2.5"/>
+  <path d="M128 160 Q140 156 152 160" stroke="#2C3654" stroke-width="2.5" fill="none"/>
+  <path d="M88 156 Q78 158 74 162" stroke="#2C3654" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M192 156 Q202 158 206 162" stroke="#2C3654" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M96 150 Q100 146 108 146" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+  <path d="M160 150 Q164 146 172 146" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M138 178 Q140 184 143 178" stroke="#E0A888" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth (composed slight smile) -->
+  <path d="M126 196 Q140 204 154 196" stroke="#9E3A52" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M128 197 Q140 200 152 197 Q140 202 128 197 Z" fill="#C0506A" opacity="0.5"/>
+</svg>

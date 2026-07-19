@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Background -->
+  <circle cx="140" cy="140" r="140" fill="#F0FFE8"/>
+
+  <!-- Shoulders / blouse -->
+  <path d="M48 280 Q48 222 92 204 L188 204 Q232 222 232 280 Z" fill="#6FA8DC"/>
+  <path d="M48 280 Q48 222 92 204 L188 204 Q232 222 232 280 Z" fill="#4F88BD" opacity="0.3"/>
+  <!-- Collar -->
+  <path d="M108 204 L140 224 L172 204 L172 212 L140 232 L108 212 Z" fill="#FFFFFF"/>
+  <!-- small note badge -->
+  <rect x="120" y="240" width="40" height="30" rx="4" fill="#FFFFFF"/>
+  <rect x="120" y="240" width="40" height="30" rx="4" fill="#D8EBC8" opacity="0.5"/>
+  <line x1="128" y1="250" x2="152" y2="250" stroke="#7AA85C" stroke-width="2"/>
+  <line x1="128" y1="258" x2="148" y2="258" stroke="#7AA85C" stroke-width="2"/>
+  <line x1="128" y1="266" x2="152" y2="266" stroke="#7AA85C" stroke-width="2"/>
+
+  <!-- Neck -->
+  <path d="M120 188 L120 206 Q140 218 160 206 L160 188 Z" fill="#FFE0C8"/>
+  <path d="M120 188 L120 206 Q140 218 160 206 L160 188 Z" fill="#F0C8A8" opacity="0.5"/>
+
+  <!-- Hair back (dark brown bob) -->
+  <path d="M50 135 Q50 70 100 52 Q140 36 180 52 Q230 70 230 135 Q232 175 214 192 L200 188 Q210 160 206 130 L74 130 Q70 160 80 188 L66 192 Q48 175 50 135 Z" fill="#3A2418"/>
+  <path d="M50 135 Q50 70 100 52 Q140 36 180 52 Q230 70 230 135 Q232 175 214 192 L206 184 Q220 160 216 124 Q200 70 180 62 L100 62 Q80 70 64 124 Q60 160 74 184 L66 192 Q48 175 50 135 Z" fill="#22140C" opacity="0.55"/>
+  <!-- Bob ends (sharp straight cut) -->
+  <path d="M62 150 Q66 178 80 188 L88 178 Q78 160 76 140 Z" fill="#3A2418"/>
+  <path d="M218 150 Q214 178 200 188 L192 178 Q202 160 204 140 Z" fill="#3A2418"/>
+
+  <!-- Face -->
+  <ellipse cx="140" cy="122" rx="76" ry="80" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M140 198 Q82 196 72 142 Q72 92 110 80 Q90 110 92 150 Q100 188 140 198 Z" fill="#F0C8A8" opacity="0.4"/>
+  <!-- Subtle blush -->
+  <ellipse cx="86" cy="152" rx="12" ry="7" fill="#F5B8A8" opacity="0.5"/>
+  <ellipse cx="194" cy="152" rx="12" ry="7" fill="#F5B8A8" opacity="0.5"/>
+
+  <!-- Ears -->
+  <circle cx="64" cy="128" r="9" fill="#FFD6B0"/>
+  <circle cx="216" cy="128" r="9" fill="#FFD6B0"/>
+
+  <!-- Hair front: straight fringe -->
+  <path d="M66 124 Q66 70 110 56 Q140 48 140 80 Q140 48 170 56 Q214 70 214 124 Q206 96 180 92 Q176 78 156 84 Q150 96 140 92 Q130 96 124 84 Q104 78 100 92 Q74 96 66 124 Z" fill="#4A2E1E"/>
+  <!-- Fringe strands -->
+  <path d="M76 110 Q90 88 112 92 Q100 100 96 116 Z" fill="#3A2418" opacity="0.6"/>
+  <path d="M168 92 Q190 88 204 110 Q196 116 184 100 Q176 100 168 92 Z" fill="#3A2418" opacity="0.6"/>
+  <!-- center part line -->
+  <path d="M140 56 L140 88" stroke="#22140C" stroke-width="2" opacity="0.6"/>
+
+  <!-- Side hair framing face -->
+  <path d="M58 130 Q56 168 70 186 L80 178 Q70 156 72 132 Z" fill="#3A2418"/>
+  <path d="M222 130 Q224 168 210 186 L200 178 Q210 156 208 132 Z" fill="#3A2418"/>
+
+  <!-- Pencil behind ear (organizer detail) -->
+  <g transform="rotate(20 70 150)">
+    <rect x="44" y="146" width="44" height="6" rx="1" fill="#FFD24A"/>
+    <rect x="44" y="146" width="44" height="2" fill="#E8B430" opacity="0.6"/>
+    <rect x="84" y="146" width="6" height="6" fill="#FF8FBE"/>
+    <polygon points="40,146 40,152 44,149" fill="#3A2A30"/>
+  </g>
+
+  <!-- Hair clip (small mint clip) -->
+  <rect x="92" y="84" width="16" height="6" rx="2" fill="#7FD9B8"/>
+  <rect x="92" y="84" width="16" height="6" rx="2" fill="#5FBF9C" opacity="0.5"/>
+
+  <!-- Eyebrows (calm, level) -->
+  <path d="M94 112 Q108 108 122 112" stroke="#2A180C" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M158 112 Q172 108 186 112" stroke="#2A180C" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes: calm, half-lidded knowing look -->
+  <ellipse cx="108" cy="140" rx="14" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="142" rx="10" ry="11" fill="#6B8E5A"/>
+  <ellipse cx="108" cy="143" rx="8" ry="9" fill="#4A6B3C"/>
+  <circle cx="112" cy="137" r="3.5" fill="#FFFFFF"/>
+  <circle cx="104" cy="147" r="1.8" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M92 136 Q108 130 124 136" stroke="#22140C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M92 136 Q92 132 96 130" stroke="#22140C" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <ellipse cx="172" cy="140" rx="14" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="142" rx="10" ry="11" fill="#6B8E5A"/>
+  <ellipse cx="172" cy="143" rx="8" ry="9" fill="#4A6B3C"/>
+  <circle cx="176" cy="137" r="3.5" fill="#FFFFFF"/>
+  <circle cx="168" cy="147" r="1.8" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M156 136 Q172 130 188 136" stroke="#22140C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M188 136 Q188 132 184 130" stroke="#22140C" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M138 156 Q140 162 142 156" stroke="#E0A888" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth: slight knowing smile -->
+  <path d="M126 174 Q140 184 154 174" stroke="#9A4A4A" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M128 175 Q140 181 152 175 Q140 178 128 175 Z" fill="#D87878" opacity="0.6"/>
+</svg>

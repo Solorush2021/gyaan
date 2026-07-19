@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <!-- Background -->
+  <circle cx="140" cy="140" r="140" fill="#FFEAF0"/>
+
+  <!-- Shoulders / body (collar with pom-pom vibe) -->
+  <path d="M48 280 Q48 220 90 200 L190 200 Q232 220 232 280 Z" fill="#7FD4E0"/>
+  <path d="M48 280 Q48 220 90 200 L190 200 Q232 220 232 280 Z" fill="#5BBFCB" opacity="0.35"/>
+  <!-- Ruffle collar -->
+  <path d="M70 205 Q90 188 110 205 Q130 188 150 205 Q170 188 190 205 Q210 188 215 205 L215 220 Q180 232 140 232 Q100 232 70 220 Z" fill="#FFFFFF"/>
+  <path d="M70 205 Q90 188 110 205 Q130 188 150 205 Q170 188 190 205 Q210 188 215 205 L215 220 Q180 232 140 232 Q100 232 70 220 Z" fill="#F0C8D8" opacity="0.4"/>
+  <!-- collar pom poms -->
+  <circle cx="62" cy="214" r="9" fill="#FF8FBE"/>
+  <circle cx="218" cy="214" r="9" fill="#FFD24A"/>
+
+  <!-- Neck -->
+  <path d="M118 188 L118 205 Q140 218 162 205 L162 188 Z" fill="#FFD6B0"/>
+  <path d="M118 188 L118 205 Q140 218 162 205 L162 188 Z" fill="#F0C8A8" opacity="0.5"/>
+
+  <!-- Hair back (cotton-candy pink, big and fluffy) -->
+  <path d="M40 130 Q36 70 92 50 Q140 28 188 50 Q244 70 240 130 Q242 165 226 180 L210 175 Q218 150 210 130 Q200 110 188 108 L92 108 Q80 110 70 130 Q62 150 70 175 L54 180 Q38 165 40 130 Z" fill="#FF9EC7"/>
+  <path d="M40 130 Q36 70 92 50 Q140 28 188 50 Q244 70 240 130 Q242 165 226 180 L218 172 Q230 150 224 124 Q210 78 188 70 L92 70 Q70 78 56 124 Q50 150 62 172 L54 180 Q38 165 40 130 Z" fill="#FF7FB3" opacity="0.55"/>
+
+  <!-- Face -->
+  <ellipse cx="140" cy="120" rx="78" ry="82" fill="#FFE0C8"/>
+  <!-- Face shadow -->
+  <path d="M140 198 Q80 196 70 140 Q70 90 110 78 Q88 110 90 150 Q98 188 140 198 Z" fill="#F0C8A8" opacity="0.45"/>
+  <!-- Cheeks -->
+  <ellipse cx="82" cy="150" rx="16" ry="9" fill="#FF9FB8" opacity="0.65"/>
+  <ellipse cx="198" cy="150" rx="16" ry="9" fill="#FF9FB8" opacity="0.65"/>
+
+  <!-- Ears -->
+  <circle cx="62" cy="128" r="9" fill="#FFD6B0"/>
+  <circle cx="218" cy="128" r="9" fill="#FFD6B0"/>
+
+  <!-- Hair front (bangs, tufty and playful) -->
+  <path d="M62 120 Q60 78 100 66 Q130 56 140 70 Q150 56 180 66 Q220 78 218 120 Q210 100 188 96 Q190 78 168 80 Q160 96 140 92 Q120 96 112 80 Q90 78 92 96 Q70 100 62 120 Z" fill="#FFB3D1"/>
+  <path d="M82 96 Q92 78 112 84 Q104 96 96 104 Z" fill="#FF8FBE" opacity="0.5"/>
+  <path d="M168 84 Q188 78 198 96 Q190 104 184 104 Q176 96 168 84 Z" fill="#FF8FBE" opacity="0.5"/>
+  <!-- Side tufts -->
+  <path d="M48 130 Q44 158 56 178 Q60 158 64 138 Z" fill="#FF9EC7"/>
+  <path d="M232 130 Q236 158 224 178 Q220 158 216 138 Z" fill="#FF9EC7"/>
+  <!-- turquoise streak -->
+  <path d="M120 66 Q128 56 140 70 Q132 80 124 76 Z" fill="#5FE0D8"/>
+
+  <!-- Eyebrows (raised, mischievous) -->
+  <path d="M92 108 Q108 100 124 106" stroke="#C25C82" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M156 106 Q172 100 188 108" stroke="#C25C82" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <!-- Left -->
+  <ellipse cx="108" cy="138" rx="15" ry="18" fill="#FFFFFF"/>
+  <ellipse cx="108" cy="140" rx="11" ry="14" fill="#4FB8C9"/>
+  <ellipse cx="108" cy="142" rx="9" ry="11" fill="#2E97A8"/>
+  <circle cx="112" cy="134" r="4" fill="#FFFFFF"/>
+  <circle cx="104" cy="146" r="2.2" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M92 134 Q108 124 124 134" stroke="#3A2A40" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Right -->
+  <ellipse cx="172" cy="138" rx="15" ry="18" fill="#FFFFFF"/>
+  <ellipse cx="172" cy="140" rx="11" ry="14" fill="#4FB8C9"/>
+  <ellipse cx="172" cy="142" rx="9" ry="11" fill="#2E97A8"/>
+  <circle cx="176" cy="134" r="4" fill="#FFFFFF"/>
+  <circle cx="168" cy="146" r="2.2" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M156 134 Q172 124 188 134" stroke="#3A2A40" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose (tiny red dot) -->
+  <circle cx="140" cy="158" r="4.5" fill="#FF5C7A"/>
+  <circle cx="138.5" cy="156.5" r="1.3" fill="#FFB3C4"/>
+
+  <!-- Mouth: big mischievous grin -->
+  <path d="M118 172 Q140 196 162 172 Q140 180 118 172 Z" fill="#B33A55"/>
+  <path d="M118 172 Q140 196 162 172" stroke="#8A2440" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- tongue -->
+  <path d="M132 182 Q140 190 148 182 Q140 186 132 182 Z" fill="#FF7A95"/>
+  <!-- sparkle in eye -->
+  <path d="M200 96 L204 102 L210 104 L204 106 L200 112 L196 106 L190 104 L196 102 Z" fill="#FFE94A" opacity="0.9"/>
+</svg>

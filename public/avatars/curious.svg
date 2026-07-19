@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280">
+  <circle cx="140" cy="140" r="140" fill="#F0E8FF"/>
+  <!-- shoulders - tilted -->
+  <path d="M45 280 C50 222 92 202 142 202 C192 202 232 222 235 280 Z" fill="#5A9AA8"/>
+  <path d="M45 280 C50 222 92 202 142 202 C192 202 232 222 235 280 Z" fill="#3A7A88" opacity="0.5"/>
+  <!-- neck -->
+  <path d="M118 182 L120 206 Q140 219 162 205 L162 182 Z" fill="#FFE0C8"/>
+  <path d="M118 196 Q140 210 162 195 L162 205 Q140 219 118 205 Z" fill="#F0C8A8"/>
+  <!-- hair back - teal mint, messy -->
+  <path d="M50 130 Q48 60 140 48 Q232 60 230 130 L226 178 Q212 162 206 148 L206 105 Q185 88 140 88 Q95 88 74 105 L74 148 Q68 162 54 178 Z" fill="#5FC8B0"/>
+  <!-- face - slightly tilted -->
+  <g transform="rotate(-6 140 130)">
+    <ellipse cx="140" cy="135" rx="78" ry="86" fill="#FFE0C8"/>
+    <path d="M140 60 Q210 65 215 130 Q215 175 195 205 Q210 170 205 140 Q200 90 140 85 Z" fill="#F0C8A8" opacity="0.55"/>
+    <ellipse cx="63" cy="140" rx="8" ry="14" fill="#FFE0C8"/>
+    <ellipse cx="217" cy="140" rx="8" ry="14" fill="#F0C8A8"/>
+    <path d="M95 112 Q108 104 124 112" stroke="#2E8870" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M158 116 Q172 112 186 120" stroke="#2E8870" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="112" cy="144" rx="15" ry="17" fill="#FFFFFF"/>
+    <ellipse cx="168" cy="144" rx="15" ry="17" fill="#FFFFFF"/>
+    <ellipse cx="112" cy="145" rx="11" ry="14" fill="#8878C8"/>
+    <ellipse cx="168" cy="145" rx="11" ry="14" fill="#8878C8"/>
+    <ellipse cx="112" cy="147" rx="7" ry="10" fill="#5848A0"/>
+    <ellipse cx="168" cy="147" rx="7" ry="10" fill="#5848A0"/>
+    <circle cx="116" cy="139" r="5" fill="#FFFFFF"/>
+    <circle cx="172" cy="139" r="5" fill="#FFFFFF"/>
+    <circle cx="107" cy="150" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="163" cy="150" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+    <path d="M97 129 Q112 123 127 130" stroke="#2A1A0E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M153 130 Q168 123 183 129" stroke="#2A1A0E" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M138 158 Q140 165 144 162" stroke="#E0B098" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="140" cy="181" rx="6" ry="7" fill="#B85858"/>
+    <path d="M134 178 Q140 175 146 178" stroke="#9A3838" stroke-width="1.5" fill="none"/>
+    <ellipse cx="90" cy="174" rx="11" ry="6" fill="#FFB8C0" opacity="0.5"/>
+    <ellipse cx="190" cy="174" rx="11" ry="6" fill="#FFB8C0" opacity="0.5"/>
+  </g>
+  <!-- hair front - messy tousled -->
+  <path d="M62 108 Q58 58 105 50 Q140 42 175 50 Q222 58 218 108 L210 92 L195 102 Q200 84 182 80 L175 95 L162 78 L148 92 L140 75 L128 90 L115 76 L102 92 L88 78 Q70 84 75 102 L62 92 Z" fill="#7AD8C0"/>
+  <path d="M62 108 Q58 58 105 50 Q140 42 175 50 Q222 58 218 108 Q205 68 168 62 Q140 57 112 62 Q75 68 62 108 Z" fill="#3AA898"/>
+  <path d="M118 50 Q122 36 130 48 Z" fill="#7AD8C0"/>
+  <path d="M150 46 Q156 32 162 46 Z" fill="#7AD8C0"/>
+  <text x="220" y="80" font-family="sans-serif" font-size="28" fill="#A898D8" opacity="0.6">?</text>
+</svg>
