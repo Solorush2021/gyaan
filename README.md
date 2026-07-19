@@ -74,11 +74,9 @@ Each scene renders with **teacher speech** (TTS), **spotlight** (focus dimming),
 
 ### Sample Screens
 
-| Sample 1 | Sample 2 |
+| Classroom Main Interface | Model Selection |
 | :---: | :---: |
-| ![Sample 1 Image](https://github.com/Solorush2021/gyann/raw/main/assets/sample1.png) | ![Sample 2 Image](https://github.com/Solorush2021/gyann/raw/main/assets/sample2.png) |
-
-> 💡 *Note: To display your own screenshots, upload your image files as `sample1.png` and `sample2.png` into an `assets` folder at the root of the repository.*
+| ![Classroom Interface](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_main_screen.jpg) | ![Model Selector](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_model_select.jpg) |
 
 ### 🎥 Video Demo
 
@@ -205,8 +203,13 @@ Phone A (hotspot) ◄── provides Wi-Fi
 
 ### 1. Download & Prepare the Local LLM (LM Studio)
 1. Ensure you have **LM Studio for ARM** (the **Bionic** build for Snapdragon laptops) installed on your system.
-2. Download the **Qwen 2.5 (or 3.5) 0.8B quantized to 4-bits** model (or a similar sub-1B quantized model).
+2. Download the **Qwen 2.5 (or 3.5) 0.8B quantized to 4-bits** model (e.g., `Qwen3.5 0.8B Q4_K_M`).
+
+![LM Studio Model Library](https://github.com/Solorush2021/gyann/raw/main/assets/lmstudio_library.jpg)
+
 3. Load the model inside LM Studio and start the local API server. It typically runs on `http://localhost:1234/v1`.
+
+![LM Studio API Server Settings](https://github.com/Solorush2021/gyann/raw/main/assets/lmstudio_api.jpg)
 
 ### 2. Configure and Run Gyaan
 ```powershell
@@ -239,27 +242,33 @@ Open **`http://localhost:3000`** on the laptop, or **`http://<laptop-lan-ip>:300
 
 Once the web interface is open, configure the settings as follows:
 
-### 1. Connect Gyaan to LM Studio
-1. Open the **Settings** panel in the Gyaan web UI.
-2. In the API/Base URL field, input your LM Studio address: `http://localhost:1234/v1`.
-3. Click the **Test Connection** button to verify the interface can communicate with the model running in LM Studio.
+### 1. Connect Gyaan to LM Studio & Select Model
+1. Open the **Settings** panel in the Gyaan web UI and go to **LLM**.
+2. Select your provider (e.g. **Lemonade (Local)**).
+3. In the API/Base URL field, input your LM Studio local server address: `http://localhost:1234/v1`.
+4. Click the **Test Connection** button to verify the interface can communicate with the model running in LM Studio.
 
-![Model Connection Setup](https://github.com/Solorush2021/gyann/raw/main/assets/model_setup.png)
+![Model Connection Setup](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_llm_settings.jpg)
+
+5. Close Settings. At the bottom of the main dashboard, click the model selection dropdown and choose your loaded model (e.g. `unsloth/Qwen3.5-0.8B-GGUF:Q4_0` under the **Lemonade** provider).
+
+![Model Dropdown Selector](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_model_select.jpg)
 
 ### 2. Set Up Text-to-Speech (TTS)
-1. Go to the **TTS / Voice** section in Settings.
-2. Choose **Browser Native** as your TTS provider.
-3. Switch the **Toggle On** to enable speech.
-4. Select your preferred voice/model from the system dropdown selection window.
+1. Go to the **Settings** panel and select **Text-to-Speech**.
+2. Select **Browser Native** as your TTS provider.
+3. Switch the **Enable this provider** toggle to **ON**.
+4. You can optionally test speech by entering text and clicking **Test TTS**. Click **Save** when done.
 
-![TTS Configuration](https://github.com/Solorush2021/gyann/raw/main/assets/tts_setup.png)
+![TTS Configuration](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_tts_settings.jpg)
 
 ### 3. Generate a Local Lesson
 1. Close settings and return to the main dashboard.
-2. Enter your desired topic or prompt in the input/chat window.
-3. Hit submit and wait for the classroom session to generate entirely on-device!
+2. Select your student persona voice/icon from the dropdown inside the main window.
+3. Enter your desired topic or prompt in the input/chat window (e.g. type `teachR` or a specific topic you want to learn).
+4. Hit submit/press enter, and wait for the lesson, spotlight animation, and teacher narration to generate entirely on-device!
 
-![Chat Generation Demo](https://github.com/Solorush2021/gyann/raw/main/assets/generation_demo.png)
+![Chat Generation Demo](https://github.com/Solorush2021/gyann/raw/main/assets/gyaan_main_screen.jpg)
 
 ---
 
