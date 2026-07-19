@@ -173,17 +173,26 @@ Unlike GPUs where developers manually invoke PyTorch operators like `flash_attn_
 
 ## 📱 Phone-as-Thin-Client
 
-The model never runs on the phone. The laptop is the server; any phone on the same Wi-Fi opens the UI.
+The model never runs on the phone. The laptop acts as the server; any phone on the same local network can open and use the UI.
 
-```
-Phone A (hotspot) ◄── provides Wi-Fi
-   ├── Snapdragon laptop  → runs Gyaan + GenieX + model
-   └── Phone B (viewer)   → opens http://<laptop-ip>:3000
-```
+### Step-by-Step Setup:
 
-- ✅ Zero compute on the phone
-- ✅ Works over a phone hotspot (no router needed)
-- ✅ Model + student data stay on the laptop
+1. **Connect to the Same Network**: Ensure both your laptop and phone are connected to the same Wi-Fi network (or connect your laptop to your phone's mobile hotspot).
+2. **Set Network Profile**: Make sure the network profile on your laptop is set to **Private** in Windows settings.
+3. **Configure the Firewall (Admin Access)**: Open PowerShell as an administrator (Right-click Start → **Terminal (Admin)** or **PowerShell (Admin)**) and run the following rule to allow inbound traffic on port 3000:
+   ```powershell
+   New-NetFirewallRule -DisplayName "Gyaan 3000" -Direction Inbound -Protocol TCP -LocalPort 3000 -Action Allow -Profile Private,Public
+   ```
+4. **Start the Host Server**: Run the Gyaan server bound to all interfaces:
+   ```powershell
+   npm run dev -- --hostname 0.0.0.0
+   ```
+   You will see a console output indicating local network endpoints, similar to:
+   ```text
+   Restarted with 0.0.0.0 — Ready in 1850ms. Now try on your phone:
+   http://10.249.126.12:3000
+   ```
+5. **Open on Phone**: On your phone's web browser, enter the network URL displayed in the console (e.g., `http://10.249.126.12:3000`). You can now run prompts, hear the narrated text, and interact with Gyaan's local classroom directly from your mobile device!
 
 ---
 
